@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Env / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Logs & local artifacts
+*.log
+*.patch
+
+# Optional: large local checkpoints (uncomment if you do not want them in git)
+# *.pkl
+# *.pth

@@ -1,0 +1,94 @@
+{
+  "Default": {
+    "qps": {
+      "t_statistic": -27.108049527007047,
+      "p_value": 7.95743483410809e-13,
+      "cohens_d": -14.847690215909012,
+      "effect_size": "大",
+      "significant": true
+    },
+    "latency": {
+      "t_statistic": -6.363580983696409,
+      "p_value": 2.4818125535757034e-05,
+      "cohens_d": -3.4854768512814385,
+      "effect_size": "大",
+      "significant": true
+    },
+    "error_rate": {
+      "t_statistic": -3.144838990970561,
+      "p_value": 0.007748241403069207,
+      "cohens_d": -1.722499255076362,
+      "effect_size": "大",
+      "significant": true
+    }
+  },
+  "Expert": {
+    "qps": {
+      "t_statistic": -2.2873959839969116,
+      "p_value": 0.03957302738973476,
+      "cohens_d": -1.2528583783818346,
+      "effect_size": "大",
+      "significant": true
+    },
+    "latency": {
+      "t_statistic": -3.723231789128617,
+      "p_value": 0.0025544098400997212,
+      "cohens_d": -2.039298037726062,
+      "effect_size": "大",
+      "significant": true
+    },
+    "error_rate": {
+      "t_statistic": -3.144838990970561,
+      "p_value": 0.007748241403069207,
+      "cohens_d": -1.722499255076362,
+      "effect_size": "大",
+      "significant": true
+    }
+  },
+  "Bayesian-Opt": {
+    "qps": {
+      "t_statistic": 0.5426877373380117,
+      "p_value": 0.5965264743704624,
+      "cohens_d": 0.29724231542146756,
+      "effect_size": "小",
+      "significant": false
+    },
+    "latency": {
+      "t_statistic": -2.0027474467723785,
+      "p_value": 0.06651225916395068,
+      "cohens_d": -1.0969499535831089,
+      "effect_size": "大",
+      "significant": false
+    },
+    "error_rate": {
+      "t_statistic": -1.9845755521306518,
+      "p_value": 0.06871012590985374,
+      "cohens_d": -1.0869967969752279,
+      "effect_size": "大",
+      "significant": false
+    }
+  },
+  "Prioritized-DQN": {
+    "qps": {
+      "t_statistic": -3.4052296313869492,
+      "p_value": 0.00469491204074133,
+      "cohens_d": -1.865121082595634,
+      "effect_size": "大",
+      "significant": true
+    },
+    "latency": {
+      "t_statistic": -1.963114881354258,
+      "p_value": 0.07139153306063283,
+      "cohens_d": -1.075242303491805,
+      "effect_size": "大",
+      "significant": false
+    },
+    "error_rate": {
+      "t_statistic": -1.0819582252571176,
+      "p_value": 0.2989330042525005,
+      "cohens_d": -0.5926129262515791,
+      "effect_size": "中等",
+      "significant": false
+    }
+  }
+}

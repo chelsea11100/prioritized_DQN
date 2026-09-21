@@ -1,0 +1,6 @@
+# 强化学习 / 实验（DQN、对比实验、DDPG/SAC 基线）
+# PyTorch 请用 install_deps 脚本先装 CPU 版，勿在此重复 pip install torch（易拉到 GPU 大包）
+
+numpy>=1.21.0
+gym>=0.26.0
+stable-baselines3>=2.0.0

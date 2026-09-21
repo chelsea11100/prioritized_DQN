@@ -1,0 +1,13 @@
+﻿方法,指标,t统计量,p值,Cohen's d,效应量,显著性
+Default,QPS,-27.1080,0.000000,-14.8477,大,是
+Default,LATENCY,-6.3636,0.000025,-3.4855,大,是
+Default,ERROR_RATE,-3.1448,0.007748,-1.7225,大,是
+Expert,QPS,-2.2874,0.039573,-1.2529,大,是
+Expert,LATENCY,-3.7232,0.002554,-2.0393,大,是
+Expert,ERROR_RATE,-3.1448,0.007748,-1.7225,大,是
+Bayesian-Opt,QPS,0.5427,0.596526,0.2972,小,否
+Bayesian-Opt,LATENCY,-2.0027,0.066512,-1.0969,大,否
+Bayesian-Opt,ERROR_RATE,-1.9846,0.068710,-1.0870,大,否
+Prioritized-DQN,QPS,-3.4052,0.004695,-1.8651,大,是
+Prioritized-DQN,LATENCY,-1.9631,0.071392,-1.0752,大,否
+Prioritized-DQN,ERROR_RATE,-1.0820,0.298933,-0.5926,中等,否

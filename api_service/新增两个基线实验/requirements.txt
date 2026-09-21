@@ -1,0 +1,4 @@
+# 已合并到上级目录，请使用：
+#   pip install -r ../requirements-full.txt
+# 或运行 ../install_deps.ps1 / ../install_deps.sh
+-r ../requirements-ml.txt

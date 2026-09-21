@@ -1,0 +1,99 @@
+{
+  "method": "SAC",
+  "num_trials": 10,
+  "iterations_per_trial": 20,
+  "base_seed": 42,
+  "timestamp": "20260122_201838",
+  "raw_results": [
+    {
+      "qps": 190.2223352131803,
+      "latency": 49.608662747087806,
+      "error_rate": 0.022150813382119872,
+      "success_rate": 0.9778491866178802,
+      "cpu_usage": 0.0,
+      "memory_usage": 0.0
+    },
+    {
+      "qps": 183.10048697665204,
+      "latency": 54.4515635738337,
+      "error_rate": 0.03530243865446084,
+      "success_rate": 0.9646975613455391,
+      "cpu_usage": 0.0,
+      "memory_usage": 0.0
+    },
+    {
+      "qps": 182.8355864070464,
+      "latency": 47.142997893888406,
+      "error_rate": 0.020049357535124417,
+      "success_rate": 0.9799506424648756,
+      "cpu_usage": 0.0,
+      "memory_usage": 0.0
+    },
+    {
+      "qps": 189.41668789680486,
+      "latency": 49.57233481410547,
+      "error_rate": 0.024249820558924107,
+      "success_rate": 0.9757501794410759,
+      "cpu_usage": 0.0,
+      "memory_usage": 0.0
+    },
+    {
+      "qps": 189.71153623933142,
+      "latency": 47.83434391582898,
+      "error_rate": 0.022167960465351143,
+      "success_rate": 0.977832039534649,
+      "cpu_usage": 0.0,
+      "memory_usage": 0.0
+    },
+    {
+      "qps": 190.03677505527193,
+      "latency": 46.708112720371794,
+      "error_rate": 0.017147640776312072,
+      "success_rate": 0.9828523592236879,
+      "cpu_usage": 0.0,
+      "memory_usage": 0.0
+    },
+    {
+      "qps": 181.68688035551338,
+      "latency": 48.77612754427932,
+      "error_rate": 0.02306148947418782,
+      "success_rate": 0.9769385105258123,
+      "cpu_usage": 0.0,
+      "memory_usage": 0.0
+    },
+    {
+      "qps": 160.24384627008018,
+      "latency": 44.56567020150076,
+      "error_rate": 0.019201695702790008,
+      "success_rate": 0.98079830429721,
+      "cpu_usage": 0.0,
+      "memory_usage": 0.0
+    },
+    {
+      "qps": 169.56816138066316,
+      "latency": 45.34130449660129,
+      "error_rate": 0.02000396696475817,
+      "success_rate": 0.9799960330352419,
+      "cpu_usage": 0.0,
+      "memory_usage": 0.0
+    },
+    {
+      "qps": 191.7446778961962,
+      "latency": 49.16136797152927,
+      "error_rate": 0.020736209549676032,
+      "success_rate": 0.979263790450324,
+      "cpu_usage": 0.0,
+      "memory_usage": 0.0
+    }
+  ],
+  "statistics": {
+    "qps_mean": 182.85669736907397,
+    "qps_std": 9.819262703346087,
+    "latency_mean": 48.31624858790268,
+    "latency_std": 2.62541183857948,
+    "error_rate_mean": 0.02240713930637045,
+    "error_rate_std": 0.00471485816366164,
+    "success_rate_mean": 0.9775928606936295,
+    "success_rate_std": 0.004714858163661662
+  }
+}

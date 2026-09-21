@@ -1,0 +1,9 @@
+{
+  "method": "DDPG",
+  "num_trials": 10,
+  "iterations_per_trial": 20,
+  "base_seed": 42,
+  "timestamp": "20260122_161021",
+  "raw_results": [],
+  "statistics": {}
+}

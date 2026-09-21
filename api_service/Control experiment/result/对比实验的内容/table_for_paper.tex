@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{不同方法的性能对比（均值±标准差）}
+\label{tab:comparison}
+\begin{tabular}{lcccc}
+\hline
+方法 & QPS & 延迟 (ms) & 错误率 (\%) & 显著性 \\
+\hline
+Default & 161.78±31.27 & 45.49±4.45 & 2.04±0.37 &  \\
+Expert & 146.52±29.18 & 43.43±5.10 & 2.04±0.37 &  \\
+Bayesian-Opt & 181.29±21.57 & 50.46±4.08 & 2.61±0.39 &  \\
+Prioritized-DQN & 171.45±26.86 & 50.67±4.88 & 3.05±0.61 &  \\
+\hline
+\multicolumn{5}{l}{注: ** 表示与V9-Full差异显著 ($p<0.05$)} \\
+\end{tabular}
+\end{table}

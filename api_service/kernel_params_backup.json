@@ -1,0 +1,172 @@
+[
+  {
+    "timestamp": 1754755327.230473,
+    "params": {
+      "net.core.somaxconn": 5196,
+      "net.ipv4.tcp_fin_timeout": 47,
+      "net.ipv4.tcp_tw_reuse": 1,
+      "net.ipv4.tcp_max_syn_backlog": 4396,
+      "net.core.netdev_max_backlog": 7800,
+      "net.core.rmem_max": 2097152,
+      "net.core.wmem_max": 2097152,
+      "net.ipv4.tcp_keepalive_time": 7200,
+      "net.ipv4.tcp_keepalive_intvl": 75,
+      "net.ipv4.tcp_keepalive_probes": 9
+    },
+    "description": "Backup created at 2025-08-10 00:02:07",
+    "id": "backup_1754755327"
+  },
+  {
+    "timestamp": 1754755419.811234,
+    "params": {
+      "net.core.somaxconn": 5196,
+      "net.ipv4.tcp_fin_timeout": 47,
+      "net.ipv4.tcp_tw_reuse": 1,
+      "net.ipv4.tcp_max_syn_backlog": 4396,
+      "net.core.netdev_max_backlog": 7800,
+      "net.core.rmem_max": 2097152,
+      "net.core.wmem_max": 2097152,
+      "net.ipv4.tcp_keepalive_time": 7200,
+      "net.ipv4.tcp_keepalive_intvl": 75,
+      "net.ipv4.tcp_keepalive_probes": 9
+    },
+    "description": "Backup created at 2025-08-10 00:03:39",
+    "id": "backup_1754755419"
+  },
+  {
+    "timestamp": 1754755425.7985601,
+    "params": {
+      "net.core.somaxconn": 5096,
+      "net.ipv4.tcp_fin_timeout": 47,
+      "net.ipv4.tcp_tw_reuse": 1,
+      "net.ipv4.tcp_max_syn_backlog": 4396,
+      "net.core.netdev_max_backlog": 7800,
+      "net.core.rmem_max": 2097152,
+      "net.core.wmem_max": 2097152,
+      "net.ipv4.tcp_keepalive_time": 7200,
+      "net.ipv4.tcp_keepalive_intvl": 75,
+      "net.ipv4.tcp_keepalive_probes": 9
+    },
+    "description": "Backup created at 2025-08-10 00:03:45",
+    "id": "backup_1754755425"
+  },
+  {
+    "timestamp": 1754755432.6749847,
+    "params": {
+      "net.core.somaxconn": 5096,
+      "net.ipv4.tcp_fin_timeout": 47,
+      "net.ipv4.tcp_tw_reuse": 1,
+      "net.ipv4.tcp_max_syn_backlog": 4396,
+      "net.core.netdev_max_backlog": 7800,
+      "net.core.rmem_max": 2097152,
+      "net.core.wmem_max": 2097152,
+      "net.ipv4.tcp_keepalive_time": 7200,
+      "net.ipv4.tcp_keepalive_intvl": 75,
+      "net.ipv4.tcp_keepalive_probes": 9
+    },
+    "description": "Backup created at 2025-08-10 00:03:52",
+    "id": "backup_1754755432"
+  },
+  {
+    "timestamp": 1754755558.7232015,
+    "params": {
+      "net.core.somaxconn": 5096,
+      "net.ipv4.tcp_fin_timeout": 47,
+      "net.ipv4.tcp_tw_reuse": 1,
+      "net.ipv4.tcp_max_syn_backlog": 4396,
+      "net.core.netdev_max_backlog": 7800,
+      "net.core.rmem_max": 2097152,
+      "net.core.wmem_max": 2097152,
+      "net.ipv4.tcp_keepalive_time": 7200,
+      "net.ipv4.tcp_keepalive_intvl": 75,
+      "net.ipv4.tcp_keepalive_probes": 9
+    },
+    "description": "Backup created at 2025-08-10 00:05:58",
+    "id": "backup_1754755558"
+  },
+  {
+    "timestamp": 1754755565.418058,
+    "params": {
+      "net.core.somaxconn": 5096,
+      "net.ipv4.tcp_fin_timeout": 47,
+      "net.ipv4.tcp_tw_reuse": 1,
+      "net.ipv4.tcp_max_syn_backlog": 4396,
+      "net.core.netdev_max_backlog": 8000,
+      "net.core.rmem_max": 2097152,
+      "net.core.wmem_max": 2097152,
+      "net.ipv4.tcp_keepalive_time": 7200,
+      "net.ipv4.tcp_keepalive_intvl": 75,
+      "net.ipv4.tcp_keepalive_probes": 9
+    },
+    "description": "Backup created at 2025-08-10 00:06:05",
+    "id": "backup_1754755565"
+  },
+  {
+    "timestamp": 1754755572.4920492,
+    "params": {
+      "net.core.somaxconn": 5096,
+      "net.ipv4.tcp_fin_timeout": 47,
+      "net.ipv4.tcp_tw_reuse": 1,
+      "net.ipv4.tcp_max_syn_backlog": 4396,
+      "net.core.netdev_max_backlog": 8000,
+      "net.core.rmem_max": 2097152,
+      "net.core.wmem_max": 2097152,
+      "net.ipv4.tcp_keepalive_time": 7200,
+      "net.ipv4.tcp_keepalive_intvl": 75,
+      "net.ipv4.tcp_keepalive_probes": 9
+    },
+    "description": "Backup created at 2025-08-10 00:06:12",
+    "id": "backup_1754755572"
+  },
+  {
+    "timestamp": 1754755716.5672958,
+    "params": {
+      "net.core.somaxconn": 5096,
+      "net.ipv4.tcp_fin_timeout": 47,
+      "net.ipv4.tcp_tw_reuse": 1,
+      "net.ipv4.tcp_max_syn_backlog": 4396,
+      "net.core.netdev_max_backlog": 8000,
+      "net.core.rmem_max": 2097152,
+      "net.core.wmem_max": 2097152,
+      "net.ipv4.tcp_keepalive_time": 7200,
+      "net.ipv4.tcp_keepalive_intvl": 75,
+      "net.ipv4.tcp_keepalive_probes": 9
+    },
+    "description": "Backup created at 2025-08-10 00:08:36",
+    "id": "backup_1754755716"
+  },
+  {
+    "timestamp": 1754755723.3380406,
+    "params": {
+      "net.core.somaxconn": 5096,
+      "net.ipv4.tcp_fin_timeout": 47,
+      "net.ipv4.tcp_tw_reuse": 1,
+      "net.ipv4.tcp_max_syn_backlog": 4496,
+      "net.core.netdev_max_backlog": 8000,
+      "net.core.rmem_max": 2097152,
+      "net.core.wmem_max": 2097152,
+      "net.ipv4.tcp_keepalive_time": 7200,
+      "net.ipv4.tcp_keepalive_intvl": 75,
+      "net.ipv4.tcp_keepalive_probes": 9
+    },
+    "description": "Backup created at 2025-08-10 00:08:43",
+    "id": "backup_1754755723"
+  },
+  {
+    "timestamp": 1754755730.3206632,
+    "params": {
+      "net.core.somaxconn": 5096,
+      "net.ipv4.tcp_fin_timeout": 47,
+      "net.ipv4.tcp_tw_reuse": 1,
+      "net.ipv4.tcp_max_syn_backlog": 4496,
+      "net.core.netdev_max_backlog": 8000,
+      "net.core.rmem_max": 2097152,
+      "net.core.wmem_max": 2097152,
+      "net.ipv4.tcp_keepalive_time": 7200,
+      "net.ipv4.tcp_keepalive_intvl": 75,
+      "net.ipv4.tcp_keepalive_probes": 9
+    },
+    "description": "Backup created at 2025-08-10 00:08:50",
+    "id": "backup_1754755730"
+  }
+]

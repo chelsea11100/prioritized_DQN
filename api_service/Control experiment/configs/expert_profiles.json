@@ -1,0 +1,24 @@
+{
+  "kylin_v10_recommended": {
+    "description": "Expert-style static tuning profile for Kylin V10 based on safe ranges in safety_mechanism and common kernel tuning practices.",
+    "params": {
+      "net.core.somaxconn": 8192,
+      "net.ipv4.tcp_fin_timeout": 30,
+      "net.ipv4.tcp_tw_reuse": 1,
+      "net.ipv4.tcp_max_syn_backlog": 8192,
+      "net.core.netdev_max_backlog": 10000
+    }
+  },
+  "linux_generic_recommended": {
+    "description": "Generic expert profile for standard Linux distributions.",
+    "params": {
+      "net.core.somaxconn": 4096,
+      "net.ipv4.tcp_fin_timeout": 45,
+      "net.ipv4.tcp_tw_reuse": 1,
+      "net.ipv4.tcp_max_syn_backlog": 4096,
+      "net.core.netdev_max_backlog": 8192
+    }
+  }
+}
+
+

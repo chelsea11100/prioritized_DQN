@@ -1,0 +1,3 @@
+# 完整环境：API + 实验（不含 torch，由 install_deps 脚本安装）
+-r requirements.txt
+-r requirements-ml.txt
