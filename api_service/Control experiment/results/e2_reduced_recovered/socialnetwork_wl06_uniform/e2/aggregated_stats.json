@@ -1,0 +1,50 @@
+{
+  "Default": {
+    "cpu_usage_mean": 7.460000000000001,
+    "cpu_usage_std": 1.3446189051177286,
+    "error_rate_mean": 0.0,
+    "error_rate_std": 0.0,
+    "latency_mean": 3.9799999999999995,
+    "latency_std": 0.021213203435596392,
+    "memory_usage_mean": 8761.70234375,
+    "memory_usage_std": 180.9677776381031,
+    "qps_mean": 360.0,
+    "qps_std": 0.0,
+    "seed_mean": 686.8,
+    "seed_std": 803.9674744664736,
+    "success_rate_mean": 1.0,
+    "success_rate_std": 0.0
+  },
+  "Expert": {
+    "cpu_usage_mean": 7.959999999999999,
+    "cpu_usage_std": 0.32863353450309946,
+    "error_rate_mean": 0.0,
+    "error_rate_std": 0.0,
+    "latency_mean": 4.046,
+    "latency_std": 0.12033287165193046,
+    "memory_usage_mean": 9370.96171875,
+    "memory_usage_std": 201.90214575070823,
+    "qps_mean": 359.93600000000004,
+    "qps_std": 0.1431083505599835,
+    "seed_mean": 686.8,
+    "seed_std": 803.9674744664736,
+    "success_rate_mean": 1.0,
+    "success_rate_std": 0.0
+  },
+  "Bayesian-Opt": {
+    "cpu_usage_mean": 16.85,
+    "cpu_usage_std": 14.910957939269586,
+    "error_rate_mean": 0.09367321867321868,
+    "error_rate_std": 0.18734643734643736,
+    "latency_mean": 2.985,
+    "latency_std": 1.99,
+    "memory_usage_mean": 12067.10546875,
+    "memory_usage_std": 1244.2086003678194,
+    "qps_mean": 271.35,
+    "qps_std": 177.3,
+    "seed_mean": 352.5,
+    "seed_std": 341.7235724968355,
+    "success_rate_mean": 0.9063267813267813,
+    "success_rate_std": 0.18734643734643736
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "spearman_rho": NaN,
+  "p_value": NaN,
+  "n": 8,
+  "rows": [
+    {
+      "method": "V9-Full",
+      "seed": 42,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0004912595961343669
+    },
+    {
+      "method": "V9-Full",
+      "seed": 123,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0004912595961343669
+    },
+    {
+      "method": "V9-no-CV",
+      "seed": 42,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0
+    },
+    {
+      "method": "V9-no-CV",
+      "seed": 123,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0
+    },
+    {
+      "method": "V9-EqualBudget-w/o-Meta",
+      "seed": 42,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0004912595961343669
+    },
+    {
+      "method": "V9-EqualBudget-w/o-Meta",
+      "seed": 123,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0004912595961343669
+    },
+    {
+      "method": "V9-UniformReplay",
+      "seed": 42,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0004912561831517658
+    },
+    {
+      "method": "V9-UniformReplay",
+      "seed": 123,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0004912561831517658
+    }
+  ]
+}

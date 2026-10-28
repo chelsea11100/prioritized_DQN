@@ -1,0 +1,133 @@
+{
+  "phase": "measure",
+  "cells": [
+    {
+      "slug": "socialnetwork_wl03_uniform",
+      "application": "socialnetwork",
+      "workload_level": 0.3,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 180,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/deathstarbench/socialNetwork/wrk2/scripts/social-network/mixed-workload.lua"
+    },
+    {
+      "slug": "socialnetwork_wl03_read-heavy",
+      "application": "socialnetwork",
+      "workload_level": 0.3,
+      "traffic_pattern": "read_heavy",
+      "wrk2_rate": 180,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/socialnetwork/read-heavy.lua"
+    },
+    {
+      "slug": "socialnetwork_wl03_burst",
+      "application": "socialnetwork",
+      "workload_level": 0.3,
+      "traffic_pattern": "burst",
+      "wrk2_rate": 180,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/deathstarbench/socialNetwork/wrk2/scripts/social-network/compose-post.lua"
+    },
+    {
+      "slug": "socialnetwork_wl06_uniform",
+      "application": "socialnetwork",
+      "workload_level": 0.6,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 360,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/deathstarbench/socialNetwork/wrk2/scripts/social-network/mixed-workload.lua"
+    },
+    {
+      "slug": "socialnetwork_wl06_read-heavy",
+      "application": "socialnetwork",
+      "workload_level": 0.6,
+      "traffic_pattern": "read_heavy",
+      "wrk2_rate": 360,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/socialnetwork/read-heavy.lua"
+    },
+    {
+      "slug": "socialnetwork_wl06_burst",
+      "application": "socialnetwork",
+      "workload_level": 0.6,
+      "traffic_pattern": "burst",
+      "wrk2_rate": 360,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/deathstarbench/socialNetwork/wrk2/scripts/social-network/compose-post.lua"
+    },
+    {
+      "slug": "socialnetwork_wl09_uniform",
+      "application": "socialnetwork",
+      "workload_level": 0.9,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 540,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/deathstarbench/socialNetwork/wrk2/scripts/social-network/mixed-workload.lua"
+    },
+    {
+      "slug": "socialnetwork_wl09_read-heavy",
+      "application": "socialnetwork",
+      "workload_level": 0.9,
+      "traffic_pattern": "read_heavy",
+      "wrk2_rate": 540,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/socialnetwork/read-heavy.lua"
+    },
+    {
+      "slug": "socialnetwork_wl09_burst",
+      "application": "socialnetwork",
+      "workload_level": 0.9,
+      "traffic_pattern": "burst",
+      "wrk2_rate": 540,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/deathstarbench/socialNetwork/wrk2/scripts/social-network/compose-post.lua"
+    }
+  ],
+  "results": [
+    {
+      "slug": "socialnetwork_wl03_uniform",
+      "qps": 180.0,
+      "dir": "Control experiment/results/e1_matrix_socialnetwork/socialnetwork_wl03_uniform"
+    },
+    {
+      "slug": "socialnetwork_wl03_read-heavy",
+      "qps": 180.0,
+      "dir": "Control experiment/results/e1_matrix_socialnetwork/socialnetwork_wl03_read-heavy"
+    },
+    {
+      "slug": "socialnetwork_wl03_burst",
+      "qps": 180.0,
+      "dir": "Control experiment/results/e1_matrix_socialnetwork/socialnetwork_wl03_burst"
+    },
+    {
+      "slug": "socialnetwork_wl06_uniform",
+      "qps": 359.68,
+      "dir": "Control experiment/results/e1_matrix_socialnetwork/socialnetwork_wl06_uniform"
+    },
+    {
+      "slug": "socialnetwork_wl06_read-heavy",
+      "qps": 360.0,
+      "dir": "Control experiment/results/e1_matrix_socialnetwork/socialnetwork_wl06_read-heavy"
+    },
+    {
+      "slug": "socialnetwork_wl06_burst",
+      "qps": 360.0,
+      "dir": "Control experiment/results/e1_matrix_socialnetwork/socialnetwork_wl06_burst"
+    },
+    {
+      "slug": "socialnetwork_wl09_uniform",
+      "qps": 540.03,
+      "dir": "Control experiment/results/e1_matrix_socialnetwork/socialnetwork_wl09_uniform"
+    },
+    {
+      "slug": "socialnetwork_wl09_read-heavy",
+      "qps": 539.54,
+      "dir": "Control experiment/results/e1_matrix_socialnetwork/socialnetwork_wl09_read-heavy"
+    },
+    {
+      "slug": "socialnetwork_wl09_burst",
+      "qps": 540.03,
+      "dir": "Control experiment/results/e1_matrix_socialnetwork/socialnetwork_wl09_burst"
+    }
+  ]
+}

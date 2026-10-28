@@ -1,0 +1,172 @@
+[
+  {
+    "timestamp": 1791959548.8043435,
+    "params": {
+      "net.core.somaxconn": 40960,
+      "net.ipv4.tcp_fin_timeout": 15,
+      "net.ipv4.tcp_tw_reuse": 0,
+      "net.ipv4.tcp_max_syn_backlog": 31348,
+      "net.core.netdev_max_backlog": 6508,
+      "net.core.rmem_max": 212992,
+      "net.core.wmem_max": 212992,
+      "vm.dirty_ratio": 20,
+      "vm.dirty_background_ratio": 10,
+      "net.ipv4.tcp_slow_start_after_idle": 1
+    },
+    "description": "Backup created at 2026-10-14 14:32:28",
+    "id": "backup_1791959548"
+  },
+  {
+    "timestamp": 1791960855.9742255,
+    "params": {
+      "net.core.somaxconn": 40960,
+      "net.ipv4.tcp_fin_timeout": 15,
+      "net.ipv4.tcp_tw_reuse": 0,
+      "net.ipv4.tcp_max_syn_backlog": 31348,
+      "net.core.netdev_max_backlog": 6508,
+      "net.core.rmem_max": 212992,
+      "net.core.wmem_max": 212992,
+      "vm.dirty_ratio": 20,
+      "vm.dirty_background_ratio": 10,
+      "net.ipv4.tcp_slow_start_after_idle": 1
+    },
+    "description": "Backup created at 2026-10-14 14:54:15",
+    "id": "backup_1791960855"
+  },
+  {
+    "timestamp": 1791961565.3920162,
+    "params": {
+      "net.core.somaxconn": 40960,
+      "net.ipv4.tcp_fin_timeout": 15,
+      "net.ipv4.tcp_tw_reuse": 0,
+      "net.ipv4.tcp_max_syn_backlog": 31348,
+      "net.core.netdev_max_backlog": 6508,
+      "net.core.rmem_max": 212992,
+      "net.core.wmem_max": 212992,
+      "vm.dirty_ratio": 20,
+      "vm.dirty_background_ratio": 10,
+      "net.ipv4.tcp_slow_start_after_idle": 1
+    },
+    "description": "Backup created at 2026-10-14 15:06:05",
+    "id": "backup_1791961565"
+  },
+  {
+    "timestamp": 1791962209.669979,
+    "params": {
+      "net.core.somaxconn": 40960,
+      "net.ipv4.tcp_fin_timeout": 15,
+      "net.ipv4.tcp_tw_reuse": 0,
+      "net.ipv4.tcp_max_syn_backlog": 31348,
+      "net.core.netdev_max_backlog": 6508,
+      "net.core.rmem_max": 212992,
+      "net.core.wmem_max": 212992,
+      "vm.dirty_ratio": 20,
+      "vm.dirty_background_ratio": 10,
+      "net.ipv4.tcp_slow_start_after_idle": 1
+    },
+    "description": "Backup created at 2026-10-14 15:16:49",
+    "id": "backup_1791962209"
+  },
+  {
+    "timestamp": 1791962981.6623063,
+    "params": {
+      "net.core.somaxconn": 55431,
+      "net.ipv4.tcp_fin_timeout": 267,
+      "net.ipv4.tcp_tw_reuse": 0,
+      "net.ipv4.tcp_max_syn_backlog": 51655,
+      "net.core.netdev_max_backlog": 6407,
+      "net.core.rmem_max": 212992,
+      "net.core.wmem_max": 212992,
+      "vm.dirty_ratio": 20,
+      "vm.dirty_background_ratio": 10,
+      "net.ipv4.tcp_slow_start_after_idle": 1
+    },
+    "description": "Backup created at 2026-10-14 15:29:41",
+    "id": "backup_1791962981"
+  },
+  {
+    "timestamp": 1791963612.6080883,
+    "params": {
+      "net.core.somaxconn": 55431,
+      "net.ipv4.tcp_fin_timeout": 267,
+      "net.ipv4.tcp_tw_reuse": 0,
+      "net.ipv4.tcp_max_syn_backlog": 51655,
+      "net.core.netdev_max_backlog": 6407,
+      "net.core.rmem_max": 212992,
+      "net.core.wmem_max": 212992,
+      "vm.dirty_ratio": 20,
+      "vm.dirty_background_ratio": 10,
+      "net.ipv4.tcp_slow_start_after_idle": 1
+    },
+    "description": "Backup created at 2026-10-14 15:40:12",
+    "id": "backup_1791963612"
+  },
+  {
+    "timestamp": 1791964671.3163373,
+    "params": {
+      "net.core.somaxconn": 55431,
+      "net.ipv4.tcp_fin_timeout": 267,
+      "net.ipv4.tcp_tw_reuse": 0,
+      "net.ipv4.tcp_max_syn_backlog": 51655,
+      "net.core.netdev_max_backlog": 6407,
+      "net.core.rmem_max": 212992,
+      "net.core.wmem_max": 212992,
+      "vm.dirty_ratio": 20,
+      "vm.dirty_background_ratio": 10,
+      "net.ipv4.tcp_slow_start_after_idle": 1
+    },
+    "description": "Backup created at 2026-10-14 15:57:51",
+    "id": "backup_1791964671"
+  },
+  {
+    "timestamp": 1791966594.5206964,
+    "params": {
+      "net.core.somaxconn": 53161,
+      "net.ipv4.tcp_fin_timeout": 265,
+      "net.ipv4.tcp_tw_reuse": 0,
+      "net.ipv4.tcp_max_syn_backlog": 50288,
+      "net.core.netdev_max_backlog": 7708,
+      "net.core.rmem_max": 212992,
+      "net.core.wmem_max": 212992,
+      "vm.dirty_ratio": 20,
+      "vm.dirty_background_ratio": 10,
+      "net.ipv4.tcp_slow_start_after_idle": 1
+    },
+    "description": "Backup created at 2026-10-14 16:29:54",
+    "id": "backup_1791966594"
+  },
+  {
+    "timestamp": 1791967781.0300312,
+    "params": {
+      "net.core.somaxconn": 53161,
+      "net.ipv4.tcp_fin_timeout": 265,
+      "net.ipv4.tcp_tw_reuse": 0,
+      "net.ipv4.tcp_max_syn_backlog": 50288,
+      "net.core.netdev_max_backlog": 7708,
+      "net.core.rmem_max": 212992,
+      "net.core.wmem_max": 212992,
+      "vm.dirty_ratio": 20,
+      "vm.dirty_background_ratio": 10,
+      "net.ipv4.tcp_slow_start_after_idle": 1
+    },
+    "description": "Backup created at 2026-10-14 16:49:41",
+    "id": "backup_1791967781"
+  },
+  {
+    "timestamp": 1791968538.8746321,
+    "params": {
+      "net.core.somaxconn": 53161,
+      "net.ipv4.tcp_fin_timeout": 265,
+      "net.ipv4.tcp_tw_reuse": 0,
+      "net.ipv4.tcp_max_syn_backlog": 50288,
+      "net.core.netdev_max_backlog": 7708,
+      "net.core.rmem_max": 212992,
+      "net.core.wmem_max": 212992,
+      "vm.dirty_ratio": 20,
+      "vm.dirty_background_ratio": 10,
+      "net.ipv4.tcp_slow_start_after_idle": 1
+    },
+    "description": "Backup created at 2026-10-14 17:02:18",
+    "id": "backup_1791968538"
+  }
+]

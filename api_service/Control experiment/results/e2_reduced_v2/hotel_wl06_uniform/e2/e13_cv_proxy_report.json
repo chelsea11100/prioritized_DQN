@@ -1,0 +1,157 @@
+{
+  "spearman_rho": NaN,
+  "p_value": NaN,
+  "n": 25,
+  "rows": [
+    {
+      "method": "Default",
+      "seed": 42,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.04359970078609994
+    },
+    {
+      "method": "Default",
+      "seed": 123,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.04359970078609994
+    },
+    {
+      "method": "Default",
+      "seed": 456,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.04359970078609994
+    },
+    {
+      "method": "Default",
+      "seed": 789,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.04359970078609994
+    },
+    {
+      "method": "Default",
+      "seed": 2024,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.04359970078609994
+    },
+    {
+      "method": "Expert",
+      "seed": 42,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0014731391274706341
+    },
+    {
+      "method": "Expert",
+      "seed": 123,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0014731391274706341
+    },
+    {
+      "method": "Expert",
+      "seed": 456,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0014731391274706341
+    },
+    {
+      "method": "Expert",
+      "seed": 789,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0014731391274706341
+    },
+    {
+      "method": "Expert",
+      "seed": 2024,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0014731391274706341
+    },
+    {
+      "method": "Bayesian-Opt",
+      "seed": 42,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0017430344593008249
+    },
+    {
+      "method": "Bayesian-Opt",
+      "seed": 123,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0017430344593008249
+    },
+    {
+      "method": "Bayesian-Opt",
+      "seed": 456,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0017430344593008249
+    },
+    {
+      "method": "Bayesian-Opt",
+      "seed": 789,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0017430344593008249
+    },
+    {
+      "method": "Bayesian-Opt",
+      "seed": 2024,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0017430344593008249
+    },
+    {
+      "method": "Prioritized-DQN",
+      "seed": 42,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.029240024021556135
+    },
+    {
+      "method": "Prioritized-DQN",
+      "seed": 123,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.029240024021556135
+    },
+    {
+      "method": "Prioritized-DQN",
+      "seed": 456,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.029240024021556135
+    },
+    {
+      "method": "Prioritized-DQN",
+      "seed": 789,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.029240024021556135
+    },
+    {
+      "method": "Prioritized-DQN",
+      "seed": 2024,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.029240024021556135
+    },
+    {
+      "method": "V9-Full",
+      "seed": 42,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0009054460360634833
+    },
+    {
+      "method": "V9-Full",
+      "seed": 123,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0009054460360634833
+    },
+    {
+      "method": "V9-Full",
+      "seed": 456,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0009054460360634833
+    },
+    {
+      "method": "V9-Full",
+      "seed": 789,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0009054460360634833
+    },
+    {
+      "method": "V9-Full",
+      "seed": 2024,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0009054460360634833
+    }
+  ]
+}

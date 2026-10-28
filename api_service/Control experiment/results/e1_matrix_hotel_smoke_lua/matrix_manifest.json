@@ -1,0 +1,21 @@
+{
+  "phase": "measure",
+  "cells": [
+    {
+      "slug": "hotel_wl06_uniform",
+      "application": "hotel",
+      "workload_level": 0.6,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 480,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/deathstarbench/hotelReservation/wrk2/scripts/hotel-reservation/mixed-workload_type_1.lua"
+    }
+  ],
+  "results": [
+    {
+      "slug": "hotel_wl06_uniform",
+      "qps": 480.01,
+      "dir": "Control experiment/results/e1_matrix_hotel_smoke_lua/hotel_wl06_uniform"
+    }
+  ]
+}

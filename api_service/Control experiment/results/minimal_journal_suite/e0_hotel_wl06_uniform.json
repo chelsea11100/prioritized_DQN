@@ -1,0 +1,81 @@
+{
+  "reference": "V9-Full",
+  "metric": "qps",
+  "methods": {
+    "Random-Search": {
+      "n": 3,
+      "mean": 479.79333333333335,
+      "std": 0.005773502691891007,
+      "cv_percent": 0.0012033311617274814,
+      "cv_bootstrap_95": [
+        0.0,
+        0.0012033311617274814
+      ]
+    },
+    "SMAC3": {
+      "n": 3,
+      "mean": 479.79,
+      "std": 0.0,
+      "cv_percent": 0.0,
+      "cv_bootstrap_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "Optuna-TPE": {
+      "n": 3,
+      "mean": 479.79,
+      "std": 0.0,
+      "cv_percent": 0.0,
+      "cv_bootstrap_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "V9-Full": {
+      "n": 3,
+      "mean": 479.79333333333335,
+      "std": 0.0,
+      "cv_percent": 0.0,
+      "cv_bootstrap_95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "pairwise_vs_reference": {
+    "Random-Search": {
+      "welch_t": 0.0,
+      "p_value_raw": 1.0,
+      "cohens_d": 0.0,
+      "levene_stat": 1.0,
+      "levene_p": 0.37390096630005887,
+      "brown_forsythe_stat": 1.0,
+      "brown_forsythe_p": 0.37390096630005887,
+      "p_value_holm": 1.0,
+      "significant_005": false
+    },
+    "SMAC3": {
+      "welch_t": -Infinity,
+      "p_value_raw": 0.0,
+      "cohens_d": 0.0,
+      "levene_stat": NaN,
+      "levene_p": NaN,
+      "brown_forsythe_stat": NaN,
+      "brown_forsythe_p": NaN,
+      "p_value_holm": 0.0,
+      "significant_005": true
+    },
+    "Optuna-TPE": {
+      "welch_t": -Infinity,
+      "p_value_raw": 0.0,
+      "cohens_d": 0.0,
+      "levene_stat": NaN,
+      "levene_p": NaN,
+      "brown_forsythe_stat": NaN,
+      "brown_forsythe_p": NaN,
+      "p_value_holm": 0.0,
+      "significant_005": true
+    }
+  }
+}

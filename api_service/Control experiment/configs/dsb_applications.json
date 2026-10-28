@@ -1,0 +1,27 @@
+{
+  "_comment": "部署 DSB 后按本机端口修改 target_url；lua 路径可用 ${DSB_ROOT} 占位符。",
+  "applications": {
+    "hotel": {
+      "display_name": "HotelReservation",
+      "target_url": "http://127.0.0.1:5000/",
+      "wrk2_scripts": {
+        "uniform": "${DSB_ROOT}/hotelReservation/wrk2/scripts/hotel-reservation/mixed-workload_type_1.lua",
+        "read_heavy": "${STABTUNE_WRK2}/hotel/read-heavy.lua",
+        "burst": "${STABTUNE_WRK2}/hotel/burst.lua"
+      },
+      "capacity_probe_rates": "50,100,150,200,300,400,500,600,800"
+    },
+    "socialnetwork": {
+      "display_name": "SocialNetwork",
+      "target_url": "http://127.0.0.1:8080/",
+      "wrk2_scripts": {
+        "uniform": "${DSB_ROOT}/socialNetwork/wrk2/scripts/social-network/mixed-workload.lua",
+        "read_heavy": "${STABTUNE_WRK2}/socialnetwork/read-heavy.lua",
+        "burst": "${DSB_ROOT}/socialNetwork/wrk2/scripts/social-network/compose-post.lua"
+      },
+      "capacity_probe_rates": "50,100,150,200,300,400,500,600"
+    }
+  },
+  "workload_levels": [0.3, 0.6, 0.9],
+  "traffic_patterns": ["uniform", "read_heavy", "burst"]
+}

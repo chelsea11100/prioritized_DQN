@@ -1,0 +1,1482 @@
+{
+  "Default": [
+    {
+      "qps": 479.99,
+      "latency": 2.23,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 9.6,
+      "memory_usage": 12099.33984375,
+      "p50_latency": 2.23,
+      "p95_latency": 2.23,
+      "p99_latency": 2.23,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Default",
+      "seed": 42,
+      "trial_index": 1,
+      "wall_clock_seconds": 660.2647786140442
+    },
+    {
+      "qps": 479.99,
+      "latency": 2.01,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 2.5,
+      "memory_usage": 11881.5859375,
+      "p50_latency": 2.01,
+      "p95_latency": 2.01,
+      "p99_latency": 2.01,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Default",
+      "seed": 123,
+      "trial_index": 2,
+      "wall_clock_seconds": 660.3266270160675
+    },
+    {
+      "qps": 479.53,
+      "latency": 2.02,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 0.6,
+      "memory_usage": 11844.1640625,
+      "p50_latency": 2.02,
+      "p95_latency": 2.02,
+      "p99_latency": 2.02,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Default",
+      "seed": 456,
+      "trial_index": 3,
+      "wall_clock_seconds": 660.3208158016205
+    },
+    {
+      "qps": 480.0,
+      "latency": 1.99,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 1.3,
+      "memory_usage": 11854.69921875,
+      "p50_latency": 1.99,
+      "p95_latency": 1.99,
+      "p99_latency": 1.99,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Default",
+      "seed": 789,
+      "trial_index": 4,
+      "wall_clock_seconds": 660.2693631649017
+    },
+    {
+      "qps": 480.01,
+      "latency": 1.96,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 3.1,
+      "memory_usage": 11856.58203125,
+      "p50_latency": 1.96,
+      "p95_latency": 1.96,
+      "p99_latency": 1.96,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Default",
+      "seed": 2024,
+      "trial_index": 5,
+      "wall_clock_seconds": 660.4536447525024
+    }
+  ],
+  "Expert": [
+    {
+      "qps": 480.0,
+      "latency": 1.94,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 1.3,
+      "memory_usage": 11844.70703125,
+      "p50_latency": 1.94,
+      "p95_latency": 1.94,
+      "p99_latency": 1.94,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Expert",
+      "seed": 42,
+      "trial_index": 1,
+      "wall_clock_seconds": 665.5134694576263
+    },
+    {
+      "qps": 480.01,
+      "latency": 1.95,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 2.5,
+      "memory_usage": 11829.09375,
+      "p50_latency": 1.95,
+      "p95_latency": 1.95,
+      "p99_latency": 1.95,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Expert",
+      "seed": 123,
+      "trial_index": 2,
+      "wall_clock_seconds": 665.5072720050812
+    },
+    {
+      "qps": 480.0,
+      "latency": 1.96,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 1.3,
+      "memory_usage": 11834.8046875,
+      "p50_latency": 1.96,
+      "p95_latency": 1.96,
+      "p99_latency": 1.96,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Expert",
+      "seed": 456,
+      "trial_index": 3,
+      "wall_clock_seconds": 665.5150520801544
+    },
+    {
+      "qps": 480.0,
+      "latency": 1.95,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 0.6,
+      "memory_usage": 11832.203125,
+      "p50_latency": 1.95,
+      "p95_latency": 1.95,
+      "p99_latency": 1.95,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Expert",
+      "seed": 789,
+      "trial_index": 4,
+      "wall_clock_seconds": 665.5133562088013
+    },
+    {
+      "qps": 479.99,
+      "latency": 1.96,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 5.0,
+      "memory_usage": 11830.6171875,
+      "p50_latency": 1.96,
+      "p95_latency": 1.96,
+      "p99_latency": 1.96,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Expert",
+      "seed": 2024,
+      "trial_index": 5,
+      "wall_clock_seconds": 665.511218547821
+    }
+  ],
+  "Bayesian-Opt": [
+    {
+      "qps": 480.0,
+      "latency": 1.92,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 1.3,
+      "memory_usage": 11849.7109375,
+      "p50_latency": 1.92,
+      "p95_latency": 1.92,
+      "p99_latency": 1.92,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Bayesian-Opt",
+      "seed": 42,
+      "trial_index": 1,
+      "wall_clock_seconds": 8709.714987754822
+    },
+    {
+      "qps": 480.0,
+      "latency": 1.92,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 1.3,
+      "memory_usage": 11890.8359375,
+      "p50_latency": 1.92,
+      "p95_latency": 1.92,
+      "p99_latency": 1.92,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Bayesian-Opt",
+      "seed": 123,
+      "trial_index": 2,
+      "wall_clock_seconds": 8709.760821580887
+    },
+    {
+      "qps": 479.99,
+      "latency": 1.92,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 4.4,
+      "memory_usage": 11878.37890625,
+      "p50_latency": 1.92,
+      "p95_latency": 1.92,
+      "p99_latency": 1.92,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Bayesian-Opt",
+      "seed": 456,
+      "trial_index": 3,
+      "wall_clock_seconds": 8710.079592943192
+    },
+    {
+      "qps": 480.01,
+      "latency": 1.92,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 0.6,
+      "memory_usage": 11912.48046875,
+      "p50_latency": 1.92,
+      "p95_latency": 1.92,
+      "p99_latency": 1.92,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Bayesian-Opt",
+      "seed": 789,
+      "trial_index": 4,
+      "wall_clock_seconds": 8710.014985322952
+    },
+    {
+      "qps": 480.01,
+      "latency": 1.93,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 0.6,
+      "memory_usage": 11902.5,
+      "p50_latency": 1.93,
+      "p95_latency": 1.93,
+      "p99_latency": 1.93,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Bayesian-Opt",
+      "seed": 2024,
+      "trial_index": 5,
+      "wall_clock_seconds": 8710.084569215775
+    }
+  ],
+  "Prioritized-DQN": [
+    {
+      "qps": 480.0,
+      "latency": 1.9466666666666665,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 1.3,
+      "memory_usage": 11984.9453125,
+      "p50_latency": 1.9466666666666665,
+      "p95_latency": 1.9466666666666665,
+      "p99_latency": 1.9466666666666665,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Prioritized-DQN",
+      "seed": 42,
+      "trial_index": 1,
+      "wall_clock_seconds": 11241.327530622482
+    },
+    {
+      "qps": 480.00333333333333,
+      "latency": 1.9533333333333331,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 1.3,
+      "memory_usage": 11971.4765625,
+      "p50_latency": 1.9533333333333331,
+      "p95_latency": 1.9533333333333331,
+      "p99_latency": 1.9533333333333331,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Prioritized-DQN",
+      "seed": 123,
+      "trial_index": 2,
+      "wall_clock_seconds": 12232.50273680687
+    },
+    {
+      "qps": 480.0,
+      "latency": 1.9933333333333334,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 1.2,
+      "memory_usage": 11938.0,
+      "p50_latency": 1.9933333333333334,
+      "p95_latency": 1.9933333333333334,
+      "p99_latency": 1.9933333333333334,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Prioritized-DQN",
+      "seed": 456,
+      "trial_index": 3,
+      "wall_clock_seconds": 10248.807396173477
+    },
+    {
+      "qps": 479.68666666666667,
+      "latency": 2.003333333333333,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 0.6,
+      "memory_usage": 12043.796875,
+      "p50_latency": 2.003333333333333,
+      "p95_latency": 2.003333333333333,
+      "p99_latency": 2.003333333333333,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Prioritized-DQN",
+      "seed": 789,
+      "trial_index": 4,
+      "wall_clock_seconds": 14216.924058437347
+    },
+    {
+      "qps": 479.84666666666664,
+      "latency": 1.9799999999999998,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 1.3,
+      "memory_usage": 11987.08203125,
+      "p50_latency": 1.9799999999999998,
+      "p95_latency": 1.9799999999999998,
+      "p99_latency": 1.9799999999999998,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "Prioritized-DQN",
+      "seed": 2024,
+      "trial_index": 5,
+      "wall_clock_seconds": 12232.60430598259
+    }
+  ],
+  "V9-Full": [
+    {
+      "qps": 480.00333333333333,
+      "latency": 1.9566666666666668,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 1.3,
+      "memory_usage": 11989.37109375,
+      "time_to_target": {
+        "method": "EnhancedDQNAgentV9",
+        "baseline_qps": 480.01,
+        "target_qps": 504.01050000000004,
+        "started_at": 1791887844.9705691,
+        "steps": [
+          {
+            "iteration": 0,
+            "wall_clock_seconds": 1.0728836059570312e-05,
+            "qps": 479.99,
+            "reward": 0.697937060847189,
+            "best_qps_so_far": 479.99
+          },
+          {
+            "iteration": 1,
+            "wall_clock_seconds": 330.6268882751465,
+            "qps": 480.01,
+            "reward": 0.6939903060227738,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 2,
+            "wall_clock_seconds": 661.2567095756531,
+            "qps": 480.01,
+            "reward": 0.6959797333686749,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 3,
+            "wall_clock_seconds": 992.0154049396515,
+            "qps": 479.53,
+            "reward": 0.6868823111229249,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 4,
+            "wall_clock_seconds": 1322.649814605713,
+            "qps": 480.0,
+            "reward": 0.7020450141998058,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 5,
+            "wall_clock_seconds": 2645.371109724045,
+            "qps": 479.53,
+            "reward": 0.683081768047227,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 6,
+            "wall_clock_seconds": 2976.00839471817,
+            "qps": 480.0,
+            "reward": 0.6999937501302066,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 7,
+            "wall_clock_seconds": 3306.635192632675,
+            "qps": 480.01,
+            "reward": 0.70002,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 8,
+            "wall_clock_seconds": 3637.2701086997986,
+            "qps": 480.0,
+            "reward": 0.704117315385599,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 9,
+            "wall_clock_seconds": 4960.038369417191,
+            "qps": 480.0,
+            "reward": 0.7020450141998058,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 10,
+            "wall_clock_seconds": 5290.677686214447,
+            "qps": 480.0,
+            "reward": 0.6939640561529804,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 11,
+            "wall_clock_seconds": 5621.316601276398,
+            "qps": 479.99,
+            "reward": 0.7020187643300178,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 12,
+            "wall_clock_seconds": 5952.009534597397,
+            "qps": 480.0,
+            "reward": 0.697963310716977,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 13,
+            "wall_clock_seconds": 6282.646554231644,
+            "qps": 479.99,
+            "reward": 0.7040910655158109,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 14,
+            "wall_clock_seconds": 6613.291337251663,
+            "qps": 479.99,
+            "reward": 0.6999675002604185,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 15,
+            "wall_clock_seconds": 6943.988474845886,
+            "qps": 480.0,
+            "reward": 0.7020450141998058,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 16,
+            "wall_clock_seconds": 7274.61879825592,
+            "qps": 480.01,
+            "reward": 0.6920210664960276,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 17,
+            "wall_clock_seconds": 7605.241907119751,
+            "qps": 480.01,
+            "reward": 0.70002,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 18,
+            "wall_clock_seconds": 7935.873176336288,
+            "qps": 480.01,
+            "reward": 0.7062371158676158,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 19,
+            "wall_clock_seconds": 9258.41326880455,
+            "qps": 480.0,
+            "reward": 0.7062108659978225,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 20,
+            "wall_clock_seconds": 9589.16806268692,
+            "qps": 479.53,
+            "reward": 0.6849723672481075,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 21,
+            "wall_clock_seconds": 9919.86571097374,
+            "qps": 480.0,
+            "reward": 0.7062108659978225,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 22,
+            "wall_clock_seconds": 10250.491346359253,
+            "qps": 480.01,
+            "reward": 0.7041435652553923,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 23,
+            "wall_clock_seconds": 10581.18450498581,
+            "qps": 480.0,
+            "reward": 0.7020450141998058,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 24,
+            "wall_clock_seconds": 10911.87693810463,
+            "qps": 480.0,
+            "reward": 0.697963310716977,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 25,
+            "wall_clock_seconds": 11242.510628461838,
+            "qps": 480.0,
+            "reward": 0.7020450141998058,
+            "best_qps_so_far": 480.01
+          }
+        ],
+        "best_qps": 480.01,
+        "time_to_target_seconds": null,
+        "total_wall_clock_seconds": 11242.510628461838,
+        "n_interactions": 26
+      },
+      "p50_latency": 1.9566666666666668,
+      "p95_latency": 1.9566666666666668,
+      "p99_latency": 1.9566666666666668,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "V9-Full",
+      "seed": 42,
+      "trial_index": 1,
+      "wall_clock_seconds": 11902.894272089005
+    },
+    {
+      "qps": 479.99333333333334,
+      "latency": 1.9299999999999997,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 1.3,
+      "memory_usage": 12013.671875,
+      "time_to_target": {
+        "method": "EnhancedDQNAgentV9",
+        "baseline_qps": 479.53,
+        "target_qps": 503.5065,
+        "started_at": 1791899748.0360613,
+        "steps": [
+          {
+            "iteration": 0,
+            "wall_clock_seconds": 4.0531158447265625e-06,
+            "qps": 480.0,
+            "reward": 0.7145012569754777,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 1,
+            "wall_clock_seconds": 330.6951289176941,
+            "qps": 480.0,
+            "reward": 0.7166115079508985,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 2,
+            "wall_clock_seconds": 1653.297259092331,
+            "qps": 480.0,
+            "reward": 0.7124115411049152,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 3,
+            "wall_clock_seconds": 1983.9392786026,
+            "qps": 479.99,
+            "reward": 0.7123852849850083,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 4,
+            "wall_clock_seconds": 2314.5750381946564,
+            "qps": 480.0,
+            "reward": 0.7166115079508985,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 5,
+            "wall_clock_seconds": 2645.2054119110107,
+            "qps": 480.0,
+            "reward": 0.7145012569754777,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 6,
+            "wall_clock_seconds": 2975.8360970020294,
+            "qps": 480.0,
+            "reward": 0.720894352528537,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 7,
+            "wall_clock_seconds": 4298.497841835022,
+            "qps": 480.0,
+            "reward": 0.7124115411049152,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 8,
+            "wall_clock_seconds": 4629.13382768631,
+            "qps": 479.99,
+            "reward": 0.7187162225348851,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 9,
+            "wall_clock_seconds": 4959.766835451126,
+            "qps": 479.99,
+            "reward": 0.7165852518309916,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 10,
+            "wall_clock_seconds": 5290.453311920166,
+            "qps": 480.01,
+            "reward": 0.7166377640705495,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 11,
+            "wall_clock_seconds": 5621.090043067932,
+            "qps": 479.99,
+            "reward": 0.7103159185897995,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 12,
+            "wall_clock_seconds": 5951.731113433838,
+            "qps": 479.99,
+            "reward": 0.725235280397065,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 13,
+            "wall_clock_seconds": 7274.5045619010925,
+            "qps": 479.53,
+            "reward": 0.7030202666326585,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 14,
+            "wall_clock_seconds": 7605.134797811508,
+            "qps": 480.0,
+            "reward": 0.7187424786547919,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 15,
+            "wall_clock_seconds": 7935.82525229454,
+            "qps": 480.01,
+            "reward": 0.7252877926366228,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 16,
+            "wall_clock_seconds": 9258.414489984512,
+            "qps": 480.0,
+            "reward": 0.720894352528537,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 17,
+            "wall_clock_seconds": 9589.040763616562,
+            "qps": 480.0,
+            "reward": 0.720894352528537,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 18,
+            "wall_clock_seconds": 9919.728924751282,
+            "qps": 479.53,
+            "reward": 0.6971087959643145,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 19,
+            "wall_clock_seconds": 10250.364371061325,
+            "qps": 479.99,
+            "reward": 0.7103159185897995,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 20,
+            "wall_clock_seconds": 10581.003812074661,
+            "qps": 479.99,
+            "reward": 0.7165852518309916,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 21,
+            "wall_clock_seconds": 10911.693225860596,
+            "qps": 479.53,
+            "reward": 0.7030202666326585,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 22,
+            "wall_clock_seconds": 11242.33054471016,
+            "qps": 480.0,
+            "reward": 0.7124115411049152,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 23,
+            "wall_clock_seconds": 11572.96072602272,
+            "qps": 480.0,
+            "reward": 0.720894352528537,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 24,
+            "wall_clock_seconds": 11903.648531675339,
+            "qps": 480.01,
+            "reward": 0.7166377640705495,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 25,
+            "wall_clock_seconds": 12234.277552604675,
+            "qps": 480.0,
+            "reward": 0.7187424786547919,
+            "best_qps_so_far": 480.01
+          }
+        ],
+        "best_qps": 480.01,
+        "time_to_target_seconds": null,
+        "total_wall_clock_seconds": 12234.277552604675,
+        "n_interactions": 26
+      },
+      "p50_latency": 1.9299999999999997,
+      "p95_latency": 1.9299999999999997,
+      "p99_latency": 1.9299999999999997,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "V9-Full",
+      "seed": 123,
+      "trial_index": 2,
+      "wall_clock_seconds": 12894.742565631866
+    },
+    {
+      "qps": 480.0,
+      "latency": 1.9800000000000002,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 1.9,
+      "memory_usage": 11997.6796875,
+      "time_to_target": {
+        "method": "EnhancedDQNAgentV9",
+        "baseline_qps": 479.99,
+        "target_qps": 503.9895,
+        "started_at": 1791912642.8084679,
+        "steps": [
+          {
+            "iteration": 0,
+            "wall_clock_seconds": 5.7220458984375e-06,
+            "qps": 480.0,
+            "reward": 0.7020575141998094,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 1,
+            "wall_clock_seconds": 330.6992139816284,
+            "qps": 480.0,
+            "reward": 0.7020575141998094,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 2,
+            "wall_clock_seconds": 661.3322343826294,
+            "qps": 480.0,
+            "reward": 0.693976556152984,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 3,
+            "wall_clock_seconds": 992.0250091552734,
+            "qps": 479.53,
+            "reward": 0.6830942557956744,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 4,
+            "wall_clock_seconds": 1322.6520969867706,
+            "qps": 480.0,
+            "reward": 0.7062233659978261,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 5,
+            "wall_clock_seconds": 2645.1967680454254,
+            "qps": 479.99,
+            "reward": 0.69998,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 6,
+            "wall_clock_seconds": 2975.8227577209473,
+            "qps": 480.0,
+            "reward": 0.7020575141998094,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 7,
+            "wall_clock_seconds": 3306.4596564769745,
+            "qps": 480.0,
+            "reward": 0.7020575141998094,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 8,
+            "wall_clock_seconds": 3637.0975935459137,
+            "qps": 479.99,
+            "reward": 0.6979495605867705,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 9,
+            "wall_clock_seconds": 3967.724971294403,
+            "qps": 480.0,
+            "reward": 0.7041298153856026,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 10,
+            "wall_clock_seconds": 4298.352875947952,
+            "qps": 480.01,
+            "reward": 0.6940028062831887,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 11,
+            "wall_clock_seconds": 4629.049841403961,
+            "qps": 480.0,
+            "reward": 0.7020575141998094,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 12,
+            "wall_clock_seconds": 4959.680694818497,
+            "qps": 480.0,
+            "reward": 0.7000062501302102,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 13,
+            "wall_clock_seconds": 5290.311156272888,
+            "qps": 480.0,
+            "reward": 0.7020575141998094,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 14,
+            "wall_clock_seconds": 5621.064426660538,
+            "qps": 479.53,
+            "reward": 0.6888242972274623,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 15,
+            "wall_clock_seconds": 5951.6978232860565,
+            "qps": 480.0,
+            "reward": 0.7041298153856026,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 16,
+            "wall_clock_seconds": 6282.325197696686,
+            "qps": 480.01,
+            "reward": 0.6980020608471853,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 17,
+            "wall_clock_seconds": 6612.9613716602325,
+            "qps": 479.99,
+            "reward": 0.7020312640695993,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 18,
+            "wall_clock_seconds": 6943.595071554184,
+            "qps": 480.0,
+            "reward": 0.7020575141998094,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 19,
+            "wall_clock_seconds": 7274.291721582413,
+            "qps": 480.0,
+            "reward": 0.7020575141998094,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 20,
+            "wall_clock_seconds": 7604.918366193771,
+            "qps": 480.01,
+            "reward": 0.7041560655158072,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 21,
+            "wall_clock_seconds": 7935.554693698883,
+            "qps": 479.99,
+            "reward": 0.69998,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 22,
+            "wall_clock_seconds": 8266.183926343918,
+            "qps": 480.0,
+            "reward": 0.693976556152984,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 23,
+            "wall_clock_seconds": 8596.880295038223,
+            "qps": 479.53,
+            "reward": 0.6830942557956744,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 24,
+            "wall_clock_seconds": 8927.511885404587,
+            "qps": 480.0,
+            "reward": 0.7020575141998094,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 25,
+            "wall_clock_seconds": 9258.149706363678,
+            "qps": 480.0,
+            "reward": 0.7020575141998094,
+            "best_qps_so_far": 480.01
+          }
+        ],
+        "best_qps": 480.01,
+        "time_to_target_seconds": null,
+        "total_wall_clock_seconds": 9258.149706363678,
+        "n_interactions": 26
+      },
+      "p50_latency": 1.9800000000000002,
+      "p95_latency": 1.9800000000000002,
+      "p99_latency": 1.9800000000000002,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "V9-Full",
+      "seed": 456,
+      "trial_index": 3,
+      "wall_clock_seconds": 9918.540719985962
+    },
+    {
+      "qps": 480.00333333333333,
+      "latency": 1.97,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 1.3,
+      "memory_usage": 12004.4375,
+      "time_to_target": {
+        "method": "EnhancedDQNAgentV9",
+        "baseline_qps": 480.0,
+        "target_qps": 504.0,
+        "started_at": 1791922561.601855,
+        "steps": [
+          {
+            "iteration": 0,
+            "wall_clock_seconds": 4.0531158447265625e-06,
+            "qps": 480.0,
+            "reward": 0.6979592013813263,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 1,
+            "wall_clock_seconds": 330.6366684436798,
+            "qps": 480.0,
+            "reward": 0.6979592013813263,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 2,
+            "wall_clock_seconds": 661.2661769390106,
+            "qps": 480.0,
+            "reward": 0.6979592013813263,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 3,
+            "wall_clock_seconds": 991.9003751277924,
+            "qps": 480.0,
+            "reward": 0.7041449293529248,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 4,
+            "wall_clock_seconds": 2314.6018710136414,
+            "qps": 480.01,
+            "reward": 0.6979854513813253,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 5,
+            "wall_clock_seconds": 2645.237538099289,
+            "qps": 480.01,
+            "reward": 0.6979854513813253,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 6,
+            "wall_clock_seconds": 2975.9286851882935,
+            "qps": 479.53,
+            "reward": 0.6868294968583255,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 7,
+            "wall_clock_seconds": 3306.5600917339325,
+            "qps": 480.0,
+            "reward": 0.7000000000000001,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 8,
+            "wall_clock_seconds": 3637.1928215026855,
+            "qps": 480.0,
+            "reward": 0.6959392258066013,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 9,
+            "wall_clock_seconds": 3967.8219108581543,
+            "qps": 480.0,
+            "reward": 0.7000000000000001,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 10,
+            "wall_clock_seconds": 4298.51832818985,
+            "qps": 480.0,
+            "reward": 0.6939398576713792,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 11,
+            "wall_clock_seconds": 4629.154593706131,
+            "qps": 480.0,
+            "reward": 0.6939398576713792,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 12,
+            "wall_clock_seconds": 4959.84952545166,
+            "qps": 480.0,
+            "reward": 0.7000000000000001,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 13,
+            "wall_clock_seconds": 5290.485726118088,
+            "qps": 479.99,
+            "reward": 0.7020355874089201,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 14,
+            "wall_clock_seconds": 5621.243035078049,
+            "qps": 479.53,
+            "reward": 0.6868294968583255,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 15,
+            "wall_clock_seconds": 5951.932905912399,
+            "qps": 479.53,
+            "reward": 0.6792695169120463,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 16,
+            "wall_clock_seconds": 6282.620458602905,
+            "qps": 480.01,
+            "reward": 0.7000262499999991,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 17,
+            "wall_clock_seconds": 6613.376905441284,
+            "qps": 479.53,
+            "reward": 0.6868294968583255,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 18,
+            "wall_clock_seconds": 6944.010904073715,
+            "qps": 480.0,
+            "reward": 0.6959392258066013,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 19,
+            "wall_clock_seconds": 7274.6425449848175,
+            "qps": 480.0,
+            "reward": 0.6919608816480155,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 20,
+            "wall_clock_seconds": 7605.331492900848,
+            "qps": 480.01,
+            "reward": 0.7041711793529238,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 21,
+            "wall_clock_seconds": 8927.854437828064,
+            "qps": 480.0,
+            "reward": 0.6979592013813263,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 22,
+            "wall_clock_seconds": 9258.488413333893,
+            "qps": 480.0,
+            "reward": 0.7020618374089193,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 23,
+            "wall_clock_seconds": 9589.190099477768,
+            "qps": 479.99,
+            "reward": 0.699973750000001,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 24,
+            "wall_clock_seconds": 9919.8210105896,
+            "qps": 480.0,
+            "reward": 0.6979592013813263,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 25,
+            "wall_clock_seconds": 10250.457612037659,
+            "qps": 479.99,
+            "reward": 0.7041186793529257,
+            "best_qps_so_far": 480.01
+          }
+        ],
+        "best_qps": 480.01,
+        "time_to_target_seconds": null,
+        "total_wall_clock_seconds": 10250.457612037659,
+        "n_interactions": 26
+      },
+      "p50_latency": 1.97,
+      "p95_latency": 1.97,
+      "p99_latency": 1.97,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "V9-Full",
+      "seed": 789,
+      "trial_index": 4,
+      "wall_clock_seconds": 10910.908676624298
+    },
+    {
+      "qps": 479.99666666666667,
+      "latency": 1.95,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 0.0,
+      "memory_usage": 12068.73046875,
+      "time_to_target": {
+        "method": "EnhancedDQNAgentV9",
+        "baseline_qps": 480.0,
+        "target_qps": 504.0,
+        "started_at": 1791933472.5773942,
+        "steps": [
+          {
+            "iteration": 0,
+            "wall_clock_seconds": 1.0967254638671875e-05,
+            "qps": 479.99,
+            "reward": 0.6979224859304017,
+            "best_qps_so_far": 479.99
+          },
+          {
+            "iteration": 1,
+            "wall_clock_seconds": 330.6265916824341,
+            "qps": 480.0,
+            "reward": 0.6959185090053681,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 2,
+            "wall_clock_seconds": 661.261965751648,
+            "qps": 480.0,
+            "reward": 0.6979487359304009,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 3,
+            "wall_clock_seconds": 1983.9261636734009,
+            "qps": 480.0,
+            "reward": 0.6979487359304009,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 4,
+            "wall_clock_seconds": 2314.5618138313293,
+            "qps": 479.99,
+            "reward": 0.7020462703135968,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 5,
+            "wall_clock_seconds": 3637.2187576293945,
+            "qps": 480.0,
+            "reward": 0.6979487359304009,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 6,
+            "wall_clock_seconds": 3967.846602678299,
+            "qps": 480.0,
+            "reward": 0.7000000000000001,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 7,
+            "wall_clock_seconds": 4298.477638959885,
+            "qps": 480.0,
+            "reward": 0.7000000000000001,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 8,
+            "wall_clock_seconds": 4629.118806362152,
+            "qps": 480.0,
+            "reward": 0.693909100270986,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 9,
+            "wall_clock_seconds": 4959.756663560867,
+            "qps": 480.0,
+            "reward": 0.6919202910572552,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 10,
+            "wall_clock_seconds": 5290.455135345459,
+            "qps": 479.99,
+            "reward": 0.6938828502709868,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 11,
+            "wall_clock_seconds": 5621.086318969727,
+            "qps": 480.0,
+            "reward": 0.6919202910572552,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 12,
+            "wall_clock_seconds": 5951.784985303879,
+            "qps": 479.99,
+            "reward": 0.6979224859304017,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 13,
+            "wall_clock_seconds": 6282.424841165543,
+            "qps": 479.99,
+            "reward": 0.6979224859304017,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 14,
+            "wall_clock_seconds": 6613.121118545532,
+            "qps": 479.53,
+            "reward": 0.6829329431117512,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 15,
+            "wall_clock_seconds": 6943.753234624863,
+            "qps": 480.0,
+            "reward": 0.6979487359304009,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 16,
+            "wall_clock_seconds": 7274.387301206589,
+            "qps": 480.0,
+            "reward": 0.6899518631082605,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 17,
+            "wall_clock_seconds": 7605.024016857147,
+            "qps": 479.99,
+            "reward": 0.691894041057256,
+            "best_qps_so_far": 480.0
+          },
+          {
+            "iteration": 18,
+            "wall_clock_seconds": 7935.65568113327,
+            "qps": 480.01,
+            "reward": 0.6919465410572542,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 19,
+            "wall_clock_seconds": 8266.34848165512,
+            "qps": 480.0,
+            "reward": 0.6959185090053681,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 20,
+            "wall_clock_seconds": 8596.97418475151,
+            "qps": 480.0,
+            "reward": 0.6959185090053681,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 21,
+            "wall_clock_seconds": 8927.604524374008,
+            "qps": 479.99,
+            "reward": 0.6899256131082614,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 22,
+            "wall_clock_seconds": 9258.296806812286,
+            "qps": 480.01,
+            "reward": 0.7020987703135949,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 23,
+            "wall_clock_seconds": 10580.883022546768,
+            "qps": 480.0,
+            "reward": 0.7000000000000001,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 24,
+            "wall_clock_seconds": 10911.510034322739,
+            "qps": 480.0,
+            "reward": 0.7020725203135959,
+            "best_qps_so_far": 480.01
+          },
+          {
+            "iteration": 25,
+            "wall_clock_seconds": 11242.209204435349,
+            "qps": 480.0,
+            "reward": 0.6959185090053681,
+            "best_qps_so_far": 480.01
+          }
+        ],
+        "best_qps": 480.01,
+        "time_to_target_seconds": null,
+        "total_wall_clock_seconds": 11242.209204435349,
+        "n_interactions": 26
+      },
+      "p50_latency": 1.95,
+      "p95_latency": 1.95,
+      "p99_latency": 1.95,
+      "experiment_backend": "wrk2",
+      "experiment_application": "hotel",
+      "experiment_workload_level": 0.6,
+      "experiment_traffic_pattern": "uniform",
+      "model_checkpoint": "/home/tangger/桌面/prioritized_DQN/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+      "method": "V9-Full",
+      "seed": 2024,
+      "trial_index": 5,
+      "wall_clock_seconds": 11902.589770078659
+    }
+  ]
+}

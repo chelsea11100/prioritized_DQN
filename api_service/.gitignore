@@ -1,0 +1,48 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets & local env
+.env
+.env.*
+*.local.env
+**/secrets.json
+**/e2_notify.local.env
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Thumbs
+Thumbs.db
+
+# Large runtime artifacts (keep aggregated tables in results/)
+Control experiment/results/**/*.log
+Control experiment/results/**/nohup.out
+Control experiment/results/**/suite.log
+Control experiment/results/**/ttt_logs/
+
+# Offline wheels (re-upload to lab when needed; too large for GitHub)
+Control experiment/configs/_wheels_smac3/
+Control experiment/configs/_wheels_smac3_linux/
+
+# Model checkpoints (obtain via training docs)
+*.pkl
+*.pt
+*.pth
+dqn_checkpoint.pkl
+enhanced_dqn_checkpoint*.pkl
+
+# Archives (regenerate locally; legacy bundles)
+*.tar.gz
+*.zip
+!Control experiment/configs/**
+
+# Runtime pid files
+*.pid

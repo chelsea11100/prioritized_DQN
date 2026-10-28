@@ -1,0 +1,27 @@
+{
+  "Default": {
+    "wall_clock_mean": 660.3270458698273,
+    "wall_clock_total": 3301.6352293491364,
+    "n_trials": 5
+  },
+  "Expert": {
+    "wall_clock_mean": 665.5120736598968,
+    "wall_clock_total": 3327.5603682994843,
+    "n_trials": 5
+  },
+  "Bayesian-Opt": {
+    "wall_clock_mean": 8709.930991363526,
+    "wall_clock_total": 43549.65495681763,
+    "n_trials": 5
+  },
+  "Prioritized-DQN": {
+    "wall_clock_mean": 12034.433205604553,
+    "wall_clock_total": 60172.166028022766,
+    "n_trials": 5
+  },
+  "V9-Full": {
+    "wall_clock_mean": 11505.935200881959,
+    "wall_clock_total": 57529.67600440979,
+    "n_trials": 5
+  }
+}

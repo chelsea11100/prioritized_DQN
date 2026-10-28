@@ -1,0 +1,542 @@
+[
+  {
+    "qps": 299.91,
+    "latency": 0.29233333333333333,
+    "error_rate": 0.0,
+    "success_rate": 1.0,
+    "maml_adapt_steps": 0,
+    "p50_latency": 0.29233333333333333,
+    "p95_latency": 0.29233333333333333,
+    "p99_latency": 0.29233333333333333,
+    "experiment_backend": "wrk2",
+    "experiment_application": "hotel",
+    "experiment_workload_level": 0.6,
+    "experiment_traffic_pattern": "uniform",
+    "model_checkpoint": "/home/stabtune/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+    "method": "V9-MAML-Adapt-k0",
+    "seed": 42,
+    "trial_index": 1,
+    "wall_clock_seconds": 10054.810638666153,
+    "holdout_workload": "load_balancer",
+    "train_workloads": [
+      "api_gateway",
+      "database"
+    ],
+    "adapt_steps": 0
+  },
+  {
+    "qps": 299.91,
+    "latency": 0.31,
+    "error_rate": 0.0,
+    "success_rate": 1.0,
+    "maml_adapt_steps": 0,
+    "p50_latency": 0.31,
+    "p95_latency": 0.31,
+    "p99_latency": 0.31,
+    "experiment_backend": "wrk2",
+    "experiment_application": "hotel",
+    "experiment_workload_level": 0.6,
+    "experiment_traffic_pattern": "uniform",
+    "model_checkpoint": "/home/stabtune/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+    "method": "V9-MAML-Adapt-k0",
+    "seed": 123,
+    "trial_index": 1,
+    "wall_clock_seconds": 9049.725906133652,
+    "holdout_workload": "load_balancer",
+    "train_workloads": [
+      "api_gateway",
+      "database"
+    ],
+    "adapt_steps": 0
+  },
+  {
+    "qps": 299.91,
+    "latency": 0.3196666666666667,
+    "error_rate": 0.0,
+    "success_rate": 1.0,
+    "maml_adapt_steps": 3,
+    "p50_latency": 0.3196666666666667,
+    "p95_latency": 0.3196666666666667,
+    "p99_latency": 0.3196666666666667,
+    "experiment_backend": "wrk2",
+    "experiment_application": "hotel",
+    "experiment_workload_level": 0.6,
+    "experiment_traffic_pattern": "uniform",
+    "model_checkpoint": "/home/stabtune/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+    "method": "V9-MAML-Adapt-k3",
+    "seed": 42,
+    "trial_index": 1,
+    "wall_clock_seconds": 15397.726324558258,
+    "holdout_workload": "load_balancer",
+    "train_workloads": [
+      "api_gateway",
+      "database"
+    ],
+    "adapt_steps": 3
+  },
+  {
+    "qps": 299.91,
+    "latency": 0.3193333333333333,
+    "error_rate": 0.0,
+    "success_rate": 1.0,
+    "maml_adapt_steps": 3,
+    "p50_latency": 0.3193333333333333,
+    "p95_latency": 0.3193333333333333,
+    "p99_latency": 0.3193333333333333,
+    "experiment_backend": "wrk2",
+    "experiment_application": "hotel",
+    "experiment_workload_level": 0.6,
+    "experiment_traffic_pattern": "uniform",
+    "model_checkpoint": "/home/stabtune/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+    "method": "V9-MAML-Adapt-k3",
+    "seed": 123,
+    "trial_index": 1,
+    "wall_clock_seconds": 14405.48509645462,
+    "holdout_workload": "load_balancer",
+    "train_workloads": [
+      "api_gateway",
+      "database"
+    ],
+    "adapt_steps": 3
+  },
+  {
+    "qps": 299.91,
+    "latency": 0.313,
+    "error_rate": 0.0,
+    "success_rate": 1.0,
+    "cpu_usage": 0.5,
+    "memory_usage": 8684.17578125,
+    "time_to_target": {
+      "method": "EnhancedDQNAgentV9",
+      "baseline_qps": 299.91,
+      "target_qps": 314.9055,
+      "started_at": 1793049546.6056392,
+      "steps": [
+        {
+          "iteration": 0,
+          "wall_clock_seconds": 0.00010919570922851562,
+          "qps": 299.91,
+          "reward": 0.3347084571779329,
+          "best_qps_so_far": 299.91
+        },
+        {
+          "iteration": 1,
+          "wall_clock_seconds": 335.77538990974426,
+          "qps": 299.91,
+          "reward": 0.3359739646823106,
+          "best_qps_so_far": 299.91
+        },
+        {
+          "iteration": 2,
+          "wall_clock_seconds": 1663.6340000629425,
+          "qps": 299.91,
+          "reward": 0.3359739646823106,
+          "best_qps_so_far": 299.91
+        },
+        {
+          "iteration": 3,
+          "wall_clock_seconds": 1999.4136962890625,
+          "qps": 299.91,
+          "reward": 0.3285022669443051,
+          "best_qps_so_far": 299.91
+        },
+        {
+          "iteration": 4,
+          "wall_clock_seconds": 2335.1743988990784,
+          "qps": 299.91,
+          "reward": 0.3450656009006467,
+          "best_qps_so_far": 299.91
+        },
+        {
+          "iteration": 5,
+          "wall_clock_seconds": 3663.022232055664,
+          "qps": 299.91,
+          "reward": 0.33345111153772344,
+          "best_qps_so_far": 299.91
+        },
+        {
+          "iteration": 6,
+          "wall_clock_seconds": 3998.792817592621,
+          "qps": 299.91,
+          "reward": 0.3189799911895082,
+          "best_qps_so_far": 299.91
+        },
+        {
+          "iteration": 7,
+          "wall_clock_seconds": 4334.581932544708,
+          "qps": 299.91,
+          "reward": 0.34773975694540793,
+          "best_qps_so_far": 299.91
+        },
+        {
+          "iteration": 8,
+          "wall_clock_seconds": 5662.430282354355,
+          "qps": 299.92,
+          "reward": 0.32490369382308815,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 9,
+          "wall_clock_seconds": 5998.199052810669,
+          "qps": 299.91,
+          "reward": 0.337247688193253,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 10,
+          "wall_clock_seconds": 6333.9994328022,
+          "qps": 299.91,
+          "reward": 0.33345111153772344,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 11,
+          "wall_clock_seconds": 6669.799677610397,
+          "qps": 299.91,
+          "reward": 0.32487369082219164,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 12,
+          "wall_clock_seconds": 7005.578854084015,
+          "qps": 299.91,
+          "reward": 0.33220187367402204,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 13,
+          "wall_clock_seconds": 7341.3487067222595,
+          "qps": 299.92,
+          "reward": 0.3360039676832071,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 14,
+          "wall_clock_seconds": 7677.122695207596,
+          "qps": 299.91,
+          "reward": 0.3224933876830565,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 15,
+          "wall_clock_seconds": 8012.894119262695,
+          "qps": 299.91,
+          "reward": 0.33345111153772344,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 16,
+          "wall_clock_seconds": 8348.673464298248,
+          "qps": 299.91,
+          "reward": 0.3347084571779329,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 17,
+          "wall_clock_seconds": 8684.452380895615,
+          "qps": 299.91,
+          "reward": 0.33220187367402204,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 18,
+          "wall_clock_seconds": 9020.223687648773,
+          "qps": 299.91,
+          "reward": 0.33345111153772344,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 19,
+          "wall_clock_seconds": 9355.986137390137,
+          "qps": 299.91,
+          "reward": 0.3224933876830565,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 20,
+          "wall_clock_seconds": 9691.771899223328,
+          "qps": 299.91,
+          "reward": 0.3450656009006467,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 21,
+          "wall_clock_seconds": 10027.561236858368,
+          "qps": 299.91,
+          "reward": 0.3285022669443051,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 22,
+          "wall_clock_seconds": 10363.318731307983,
+          "qps": 299.91,
+          "reward": 0.337247688193253,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 23,
+          "wall_clock_seconds": 10699.109917402267,
+          "qps": 299.91,
+          "reward": 0.33982000000000007,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 24,
+          "wall_clock_seconds": 11034.890194177628,
+          "qps": 299.91,
+          "reward": 0.33220187367402204,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 25,
+          "wall_clock_seconds": 11370.670793771744,
+          "qps": 299.91,
+          "reward": 0.3437414429893035,
+          "best_qps_so_far": 299.92
+        }
+      ],
+      "best_qps": 299.92,
+      "time_to_target_seconds": null,
+      "total_wall_clock_seconds": 11370.670793771744,
+      "n_interactions": 26
+    },
+    "p50_latency": 0.313,
+    "p95_latency": 0.313,
+    "p99_latency": 0.313,
+    "experiment_backend": "wrk2",
+    "experiment_application": "hotel",
+    "experiment_workload_level": 0.6,
+    "experiment_traffic_pattern": "uniform",
+    "model_checkpoint": "/home/stabtune/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+    "method": "V9-Full-k0",
+    "seed": 42,
+    "trial_index": 1,
+    "wall_clock_seconds": 12036.32074213028,
+    "holdout_workload": "load_balancer",
+    "train_workloads": [
+      "api_gateway",
+      "database"
+    ],
+    "adapt_steps": 0
+  },
+  {
+    "qps": 299.91,
+    "latency": 0.31433333333333335,
+    "error_rate": 0.0,
+    "success_rate": 1.0,
+    "cpu_usage": 0.5,
+    "memory_usage": 8689.57421875,
+    "time_to_target": {
+      "method": "EnhancedDQNAgentV9",
+      "baseline_qps": 299.91,
+      "target_qps": 314.9055,
+      "started_at": 1793061584.066588,
+      "steps": [
+        {
+          "iteration": 0,
+          "wall_clock_seconds": 0.0009937286376953125,
+          "qps": 299.91,
+          "reward": 0.33855016299600627,
+          "best_qps_so_far": 299.91
+        },
+        {
+          "iteration": 1,
+          "wall_clock_seconds": 335.7653784751892,
+          "qps": 299.91,
+          "reward": 0.33232087878267147,
+          "best_qps_so_far": 299.91
+        },
+        {
+          "iteration": 2,
+          "wall_clock_seconds": 671.5199575424194,
+          "qps": 299.91,
+          "reward": 0.3274782396537096,
+          "best_qps_so_far": 299.91
+        },
+        {
+          "iteration": 3,
+          "wall_clock_seconds": 1002.2309849262238,
+          "qps": 299.9,
+          "reward": 0.33725838523289337,
+          "best_qps_so_far": 299.91
+        },
+        {
+          "iteration": 4,
+          "wall_clock_seconds": 1338.0064492225647,
+          "qps": 299.91,
+          "reward": 0.3410979509234212,
+          "best_qps_so_far": 299.91
+        },
+        {
+          "iteration": 5,
+          "wall_clock_seconds": 2665.8708992004395,
+          "qps": 299.91,
+          "reward": 0.3410979509234212,
+          "best_qps_so_far": 299.91
+        },
+        {
+          "iteration": 6,
+          "wall_clock_seconds": 3001.633138656616,
+          "qps": 299.91,
+          "reward": 0.3423840674438361,
+          "best_qps_so_far": 299.91
+        },
+        {
+          "iteration": 7,
+          "wall_clock_seconds": 4329.505201101303,
+          "qps": 299.91,
+          "reward": 0.35161985404389623,
+          "best_qps_so_far": 299.91
+        },
+        {
+          "iteration": 8,
+          "wall_clock_seconds": 5657.366978645325,
+          "qps": 299.92,
+          "reward": 0.33358092389859056,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 9,
+          "wall_clock_seconds": 5993.127988815308,
+          "qps": 299.91,
+          "reward": 0.33355092089769406,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 10,
+          "wall_clock_seconds": 6328.9065272808075,
+          "qps": 299.91,
+          "reward": 0.33355092089769406,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 11,
+          "wall_clock_seconds": 6664.673795223236,
+          "qps": 299.91,
+          "reward": 0.3626906512374744,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 12,
+          "wall_clock_seconds": 7992.5407910346985,
+          "qps": 299.91,
+          "reward": 0.3372883882337901,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 13,
+          "wall_clock_seconds": 8328.31674695015,
+          "qps": 299.91,
+          "reward": 0.3584731278430801,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 14,
+          "wall_clock_seconds": 8664.094770908356,
+          "qps": 299.91,
+          "reward": 0.3410979509234212,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 15,
+          "wall_clock_seconds": 8999.84180021286,
+          "qps": 299.91,
+          "reward": 0.34367840122484394,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 16,
+          "wall_clock_seconds": 9335.59151172638,
+          "qps": 299.92,
+          "reward": 0.33731839123468665,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 17,
+          "wall_clock_seconds": 9671.361284017563,
+          "qps": 299.91,
+          "reward": 0.3360346240490009,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 18,
+          "wall_clock_seconds": 10002.055083751678,
+          "qps": 299.91,
+          "reward": 0.3360346240490009,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 19,
+          "wall_clock_seconds": 10337.819964408875,
+          "qps": 299.91,
+          "reward": 0.35570568009741055,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 20,
+          "wall_clock_seconds": 10673.596440792084,
+          "qps": 299.91,
+          "reward": 0.3360346240490009,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 21,
+          "wall_clock_seconds": 11009.35525226593,
+          "qps": 299.91,
+          "reward": 0.33982000000000007,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 22,
+          "wall_clock_seconds": 11345.11792230606,
+          "qps": 299.91,
+          "reward": 0.33982000000000007,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 23,
+          "wall_clock_seconds": 11680.884239435196,
+          "qps": 299.91,
+          "reward": 0.33109864097153896,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 24,
+          "wall_clock_seconds": 12016.655925512314,
+          "qps": 299.91,
+          "reward": 0.35027513442794267,
+          "best_qps_so_far": 299.92
+        },
+        {
+          "iteration": 25,
+          "wall_clock_seconds": 12352.451656579971,
+          "qps": 299.9,
+          "reward": 0.3335209178967973,
+          "best_qps_so_far": 299.92
+        }
+      ],
+      "best_qps": 299.92,
+      "time_to_target_seconds": null,
+      "total_wall_clock_seconds": 12352.451656579971,
+      "n_interactions": 26
+    },
+    "p50_latency": 0.31433333333333335,
+    "p95_latency": 0.31433333333333335,
+    "p99_latency": 0.31433333333333335,
+    "experiment_backend": "wrk2",
+    "experiment_application": "hotel",
+    "experiment_workload_level": 0.6,
+    "experiment_traffic_pattern": "uniform",
+    "model_checkpoint": "/home/stabtune/api_service/enhanced_dqn_checkpoint_v9_dsb_hotel.pkl",
+    "method": "V9-Full-k0",
+    "seed": 123,
+    "trial_index": 1,
+    "wall_clock_seconds": 13018.106216907501,
+    "holdout_workload": "load_balancer",
+    "train_workloads": [
+      "api_gateway",
+      "database"
+    ],
+    "adapt_steps": 0
+  }
+]

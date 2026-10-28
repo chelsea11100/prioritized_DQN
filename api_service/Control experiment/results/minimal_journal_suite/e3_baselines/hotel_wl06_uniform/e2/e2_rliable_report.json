@@ -1,0 +1,37 @@
+{
+  "Random-Search": {
+    "iqm": 479.79333333333335,
+    "ci_low": 479.79,
+    "ci_high": 479.8,
+    "mean": 479.79333333333335,
+    "std": 0.005773502691891007,
+    "n": 3
+  },
+  "SMAC3": {
+    "iqm": 479.79,
+    "ci_low": 479.79,
+    "ci_high": 479.79,
+    "mean": 479.79,
+    "std": 0.0,
+    "n": 3
+  },
+  "Optuna-TPE": {
+    "iqm": 479.79,
+    "ci_low": 479.79,
+    "ci_high": 479.79,
+    "mean": 479.79,
+    "std": 0.0,
+    "n": 3
+  },
+  "V9-Full": {
+    "iqm": 479.79333333333335,
+    "ci_low": 479.79333333333335,
+    "ci_high": 479.79333333333335,
+    "mean": 479.79333333333335,
+    "std": 0.0,
+    "n": 3
+  },
+  "_rliable": {
+    "skipped": "pip install rliable for official IQM intervals"
+  }
+}

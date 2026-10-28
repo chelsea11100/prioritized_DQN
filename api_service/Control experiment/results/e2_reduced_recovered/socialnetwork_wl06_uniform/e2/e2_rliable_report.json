@@ -1,0 +1,29 @@
+{
+  "Default": {
+    "iqm": 360.0,
+    "ci_low": 360.0,
+    "ci_high": 360.0,
+    "mean": 360.0,
+    "std": 0.0,
+    "n": 5
+  },
+  "Expert": {
+    "iqm": 360.0,
+    "ci_low": 359.7866666666667,
+    "ci_high": 360.0,
+    "mean": 359.93600000000004,
+    "std": 0.1431083505599835,
+    "n": 5
+  },
+  "Bayesian-Opt": {
+    "iqm": 360.0,
+    "ci_low": 5.4,
+    "ci_high": 360.0,
+    "mean": 271.35,
+    "std": 177.3,
+    "n": 4
+  },
+  "_rliable": {
+    "skipped": "pip install rliable for official IQM intervals"
+  }
+}

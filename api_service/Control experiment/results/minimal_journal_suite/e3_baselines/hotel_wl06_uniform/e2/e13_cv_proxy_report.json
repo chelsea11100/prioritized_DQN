@@ -1,0 +1,79 @@
+{
+  "spearman_rho": NaN,
+  "p_value": NaN,
+  "n": 12,
+  "rows": [
+    {
+      "method": "Random-Search",
+      "seed": 42,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0012033311617274814
+    },
+    {
+      "method": "Random-Search",
+      "seed": 123,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0012033311617274814
+    },
+    {
+      "method": "Random-Search",
+      "seed": 456,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0012033311617274814
+    },
+    {
+      "method": "SMAC3",
+      "seed": 42,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0
+    },
+    {
+      "method": "SMAC3",
+      "seed": 123,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0
+    },
+    {
+      "method": "SMAC3",
+      "seed": 456,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0
+    },
+    {
+      "method": "Optuna-TPE",
+      "seed": 42,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0
+    },
+    {
+      "method": "Optuna-TPE",
+      "seed": 123,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0
+    },
+    {
+      "method": "Optuna-TPE",
+      "seed": 456,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0
+    },
+    {
+      "method": "V9-Full",
+      "seed": 42,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0
+    },
+    {
+      "method": "V9-Full",
+      "seed": 123,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0
+    },
+    {
+      "method": "V9-Full",
+      "seed": 456,
+      "window_cv_qps_percent": 0.0,
+      "method_cross_run_cv": 0.0
+    }
+  ]
+}

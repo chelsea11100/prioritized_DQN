@@ -1,0 +1,22 @@
+{
+  "V9-Full": {
+    "wall_clock_mean": 11534.510363817215,
+    "wall_clock_total": 23069.02072763443,
+    "n_trials": 2
+  },
+  "V9-no-CV": {
+    "wall_clock_mean": 11533.738511681557,
+    "wall_clock_total": 23067.477023363113,
+    "n_trials": 2
+  },
+  "V9-EqualBudget-w/o-Meta": {
+    "wall_clock_mean": 14715.5875248909,
+    "wall_clock_total": 29431.1750497818,
+    "n_trials": 2
+  },
+  "V9-UniformReplay": {
+    "wall_clock_mean": 12525.85731267929,
+    "wall_clock_total": 25051.71462535858,
+    "n_trials": 2
+  }
+}

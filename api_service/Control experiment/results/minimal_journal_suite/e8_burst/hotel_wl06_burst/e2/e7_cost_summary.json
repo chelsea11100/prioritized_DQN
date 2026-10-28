@@ -1,0 +1,17 @@
+{
+  "Default": {
+    "wall_clock_mean": 660.314133644104,
+    "wall_clock_total": 1320.628267288208,
+    "n_trials": 2
+  },
+  "V9-Full": {
+    "wall_clock_mean": 11506.500673413277,
+    "wall_clock_total": 23013.001346826553,
+    "n_trials": 2
+  },
+  "Bayesian-Opt": {
+    "wall_clock_mean": 8715.473542928696,
+    "wall_clock_total": 17430.94708585739,
+    "n_trials": 2
+  }
+}

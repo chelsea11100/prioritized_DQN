@@ -1,0 +1,22 @@
+{
+  "Random-Search": {
+    "wall_clock_mean": 8716.15698591868,
+    "wall_clock_total": 26148.470957756042,
+    "n_trials": 3
+  },
+  "SMAC3": {
+    "wall_clock_mean": 0,
+    "wall_clock_total": 0,
+    "n_trials": 0
+  },
+  "Optuna-TPE": {
+    "wall_clock_mean": 8716.470059712728,
+    "wall_clock_total": 26149.410179138184,
+    "n_trials": 3
+  },
+  "V9-Full": {
+    "wall_clock_mean": 12032.201454003653,
+    "wall_clock_total": 36096.604362010956,
+    "n_trials": 3
+  }
+}

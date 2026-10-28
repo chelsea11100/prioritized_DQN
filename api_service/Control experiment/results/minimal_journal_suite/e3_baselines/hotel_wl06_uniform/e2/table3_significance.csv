@@ -1,0 +1,4 @@
+Method,welch_t,p_raw,p_holm,cohens_d,levene_p,brown_forsythe_p
+Random-Search,0.0,1.0,1.0,0.0,0.37390096630005887,0.37390096630005887
+SMAC3,-inf,0.0,0.0,0.0,nan,nan
+Optuna-TPE,-inf,0.0,0.0,0.0,nan,nan

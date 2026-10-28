@@ -1,0 +1,91 @@
+{
+  "suite_out": "/home/stabtune/api_service/Control experiment/results/minimal_journal_suite",
+  "phases": {
+    "e3_baselines": {
+      "phase": "e2",
+      "cells": [
+        {
+          "slug": "hotel_wl06_uniform",
+          "application": "hotel",
+          "workload_level": 0.6,
+          "traffic_pattern": "uniform",
+          "wrk2_rate": 480,
+          "url": "http://127.0.0.1:5000/",
+          "script": "/home/stabtune/deathstarbench/hotelReservation/wrk2/scripts/hotel-reservation/mixed-workload_type_1.lua"
+        }
+      ],
+      "results": [
+        {
+          "slug": "hotel_wl06_uniform",
+          "exit_code": 1,
+          "dir": "/home/stabtune/api_service/Control experiment/results/minimal_journal_suite/e3_baselines/hotel_wl06_uniform"
+        }
+      ]
+    },
+    "e4_stability": {
+      "phase": "e2",
+      "cells": [
+        {
+          "slug": "hotel_wl06_uniform",
+          "application": "hotel",
+          "workload_level": 0.6,
+          "traffic_pattern": "uniform",
+          "wrk2_rate": 480,
+          "url": "http://127.0.0.1:5000/",
+          "script": "/home/stabtune/deathstarbench/hotelReservation/wrk2/scripts/hotel-reservation/mixed-workload_type_1.lua"
+        }
+      ],
+      "results": [
+        {
+          "slug": "hotel_wl06_uniform",
+          "exit_code": 0,
+          "dir": "/home/stabtune/api_service/Control experiment/results/minimal_journal_suite/e4_stability/hotel_wl06_uniform"
+        }
+      ]
+    },
+    "e5_ablation": {
+      "phase": "e2",
+      "cells": [
+        {
+          "slug": "hotel_wl06_uniform",
+          "application": "hotel",
+          "workload_level": 0.6,
+          "traffic_pattern": "uniform",
+          "wrk2_rate": 480,
+          "url": "http://127.0.0.1:5000/",
+          "script": "/home/stabtune/deathstarbench/hotelReservation/wrk2/scripts/hotel-reservation/mixed-workload_type_1.lua"
+        }
+      ],
+      "results": [
+        {
+          "slug": "hotel_wl06_uniform",
+          "exit_code": 0,
+          "dir": "/home/stabtune/api_service/Control experiment/results/minimal_journal_suite/e5_ablation/hotel_wl06_uniform"
+        }
+      ]
+    },
+    "e8_burst": {
+      "phase": "e2",
+      "cells": [
+        {
+          "slug": "hotel_wl06_burst",
+          "application": "hotel",
+          "workload_level": 0.6,
+          "traffic_pattern": "burst",
+          "wrk2_rate": 480,
+          "url": "http://127.0.0.1:5000/",
+          "script": null
+        }
+      ],
+      "results": [
+        {
+          "slug": "hotel_wl06_burst",
+          "exit_code": 0,
+          "dir": "/home/stabtune/api_service/Control experiment/results/minimal_journal_suite/e8_burst/hotel_wl06_burst"
+        }
+      ]
+    }
+  },
+  "e6": "/home/stabtune/api_service/Control experiment/results/minimal_journal_suite/e6_generalization.json",
+  "e9": "/home/stabtune/api_service/Control experiment/results/minimal_journal_suite/e9_safety_summary.json"
+}

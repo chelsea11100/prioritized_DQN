@@ -1,0 +1,102 @@
+{
+  "reference": "V9-Full",
+  "metric": "qps",
+  "methods": {
+    "Default": {
+      "n": 5,
+      "mean": 359.84999999999997,
+      "std": 0.0070710678118791415,
+      "cv_percent": 0.001965004255072709,
+      "cv_bootstrap_95": [
+        0.0,
+        0.002778935667644665
+      ]
+    },
+    "Expert": {
+      "n": 5,
+      "mean": 359.8540000000001,
+      "std": 0.00547722557504668,
+      "cv_percent": 0.0015220688320948714,
+      "cv_bootstrap_95": [
+        0.0,
+        0.0015220688320948719
+      ]
+    },
+    "Bayesian-Opt": {
+      "n": 5,
+      "mean": 359.852,
+      "std": 0.004472135954995512,
+      "cv_percent": 0.0012427709044261286,
+      "cv_bootstrap_95": [
+        0.0,
+        0.0015220688320948719
+      ]
+    },
+    "Prioritized-DQN": {
+      "n": 5,
+      "mean": 359.852,
+      "std": 0.0018257418582866244,
+      "cv_percent": 0.0005073590971528919,
+      "cv_bootstrap_95": [
+        0.0,
+        0.0005073600370949367
+      ]
+    },
+    "V9-Full": {
+      "n": 5,
+      "mean": 359.85066666666677,
+      "std": 0.0014907119849476619,
+      "cv_percent": 0.0004142585030496895,
+      "cv_bootstrap_95": [
+        0.0,
+        0.0005073600370949366
+      ]
+    }
+  },
+  "pairwise_vs_reference": {
+    "Default": {
+      "welch_t": -0.20628424929370995,
+      "p_value_raw": 0.8458589747947638,
+      "cohens_d": -0.13046561463722076,
+      "levene_stat": 1.7241379310687512,
+      "levene_p": 0.22557197381240382,
+      "brown_forsythe_stat": 1.7241379310687512,
+      "brown_forsythe_p": 0.22557197381240382,
+      "p_value_holm": 1.0,
+      "significant_005": false
+    },
+    "Expert": {
+      "welch_t": 1.313064328600314,
+      "p_value_raw": 0.25097388317156233,
+      "cohens_d": 0.8304547985393529,
+      "levene_stat": 1.7241379310661151,
+      "levene_p": 0.22557197381272642,
+      "brown_forsythe_stat": 1.7241379310661151,
+      "brown_forsythe_p": 0.22557197381272642,
+      "p_value_holm": 0.9715024487037387,
+      "significant_005": false
+    },
+    "Bayesian-Opt": {
+      "welch_t": 0.632455531976514,
+      "p_value_raw": 0.5555416034645331,
+      "cohens_d": 0.3999999999638476,
+      "levene_stat": 0.4000000000163709,
+      "levene_p": 0.5447373007964544,
+      "brown_forsythe_stat": 0.4000000000163709,
+      "brown_forsythe_p": 0.5447373007964544,
+      "p_value_holm": 1.0,
+      "significant_005": false
+    },
+    "Prioritized-DQN": {
+      "welch_t": 1.2649110639918548,
+      "p_value_raw": 0.24287561217593467,
+      "cohens_d": 0.7999999999522516,
+      "levene_stat": 0.4000000000000001,
+      "levene_p": 0.5447373008044907,
+      "brown_forsythe_stat": 0.4000000000000001,
+      "brown_forsythe_p": 0.5447373008044907,
+      "p_value_holm": 0.9715024487037387,
+      "significant_005": false
+    }
+  }
+}

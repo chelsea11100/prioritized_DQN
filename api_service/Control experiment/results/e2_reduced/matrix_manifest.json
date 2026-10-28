@@ -1,0 +1,35 @@
+{
+  "phase": "e2",
+  "cells": [
+    {
+      "slug": "hotel_wl06_uniform",
+      "application": "hotel",
+      "workload_level": 0.6,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 480,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/deathstarbench/hotelReservation/wrk2/scripts/hotel-reservation/mixed-workload_type_1.lua"
+    },
+    {
+      "slug": "socialnetwork_wl06_uniform",
+      "application": "socialnetwork",
+      "workload_level": 0.6,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 360,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/deathstarbench/socialNetwork/wrk2/scripts/social-network/mixed-workload.lua"
+    }
+  ],
+  "results": [
+    {
+      "slug": "hotel_wl06_uniform",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_reduced/hotel_wl06_uniform"
+    },
+    {
+      "slug": "socialnetwork_wl06_uniform",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_reduced/socialnetwork_wl06_uniform"
+    }
+  ]
+}

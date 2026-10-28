@@ -1,0 +1,4 @@
+Method,welch_t,p_raw,p_holm,cohens_d,levene_p,brown_forsythe_p
+V9-no-CV,1.0,0.49999999999999956,0.9999999999999991,1.0,0.0,0.0
+V9-EqualBudget-w/o-Meta,0.0,1.0,1.0,0.0,nan,nan
+V9-UniformReplay,1.4142135623730951,0.29289321881345226,0.8786796564403567,1.4142135623730951,nan,nan

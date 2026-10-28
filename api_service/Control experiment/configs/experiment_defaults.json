@@ -1,0 +1,20 @@
+{
+  "backend": "simulator",
+  "application": "hotel",
+  "workload_level": 0.6,
+  "traffic_pattern": "uniform",
+  "warmup_seconds": 5,
+  "measure_seconds": 30,
+  "measure_repeats": 10,
+  "wrk2_target_url": "http://127.0.0.1:8080/",
+  "wrk2_threads": 4,
+  "wrk2_connections": 64,
+  "wrk2_rate": null,
+  "interaction_budget": 25,
+  "require_v9_checkpoint": true,
+  "cv_lambda": 0,
+  "cv_tau": 10.0,
+  "extended_params": false,
+  "seeds": [42, 123, 456, 789, 2024, 3141, 2718, 1618, 1414, 2236, 3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010],
+  "_comment_paper": "期刊正文建议 warmup_seconds=30, measure_seconds=300, backend=wrk2"
+}

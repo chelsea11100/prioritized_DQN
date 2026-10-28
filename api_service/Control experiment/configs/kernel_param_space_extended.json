@@ -1,0 +1,12 @@
+{
+  "net.core.somaxconn": [128, 65535],
+  "net.ipv4.tcp_fin_timeout": [1, 300],
+  "net.ipv4.tcp_tw_reuse": [0, 1],
+  "net.ipv4.tcp_max_syn_backlog": [128, 65535],
+  "net.core.netdev_max_backlog": [1000, 10000],
+  "net.core.rmem_max": [4096, 67108864],
+  "net.core.wmem_max": [4096, 67108864],
+  "vm.dirty_ratio": [5, 80],
+  "vm.dirty_background_ratio": [3, 50],
+  "net.ipv4.tcp_slow_start_after_idle": [0, 1]
+}

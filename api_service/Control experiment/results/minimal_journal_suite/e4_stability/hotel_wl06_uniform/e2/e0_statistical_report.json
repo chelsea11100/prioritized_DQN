@@ -1,0 +1,60 @@
+{
+  "reference": "V9-Full",
+  "metric": "qps",
+  "methods": {
+    "PER-DQN-CV": {
+      "n": 2,
+      "mean": 479.79333333333335,
+      "std": 0.0,
+      "cv_percent": 0.0,
+      "cv_bootstrap_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "PPO-MeanVariance": {
+      "n": 2,
+      "mean": 479.795,
+      "std": 0.007071067811859044,
+      "cv_percent": 0.0014737685494552973,
+      "cv_bootstrap_95": [
+        0.0,
+        0.0014737685494552973
+      ]
+    },
+    "V9-Full": {
+      "n": 2,
+      "mean": 479.7916666666667,
+      "std": 0.0023570226039530146,
+      "cv_percent": 0.0004912595961343669,
+      "cv_bootstrap_95": [
+        0.0,
+        0.0004912595961343669
+      ]
+    }
+  },
+  "pairwise_vs_reference": {
+    "PER-DQN-CV": {
+      "welch_t": 1.0,
+      "p_value_raw": 0.49999999999999956,
+      "cohens_d": 1.0,
+      "levene_stat": Infinity,
+      "levene_p": 0.0,
+      "brown_forsythe_stat": Infinity,
+      "brown_forsythe_p": 0.0,
+      "p_value_holm": 0.9999999999999991,
+      "significant_005": false
+    },
+    "PPO-MeanVariance": {
+      "welch_t": 0.6324555320336759,
+      "p_value_raw": 0.6248301115609279,
+      "cohens_d": 0.6324555320336759,
+      "levene_stat": Infinity,
+      "levene_p": 0.0,
+      "brown_forsythe_stat": Infinity,
+      "brown_forsythe_p": 0.0,
+      "p_value_holm": 0.9999999999999991,
+      "significant_005": false
+    }
+  }
+}

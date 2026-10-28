@@ -1,0 +1,143 @@
+{
+  "phase": "measure",
+  "application": "hotel",
+  "cells": [
+    {
+      "slug": "hotel_wl03_uniform",
+      "application": "hotel",
+      "workload_level": 0.3,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 240,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/deathstarbench/hotelReservation/wrk2/scripts/hotel-reservation/mixed-workload_type_1.lua"
+    },
+    {
+      "slug": "hotel_wl03_read-heavy",
+      "application": "hotel",
+      "workload_level": 0.3,
+      "traffic_pattern": "read_heavy",
+      "wrk2_rate": 240,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/hotel/read-heavy.lua"
+    },
+    {
+      "slug": "hotel_wl03_burst",
+      "application": "hotel",
+      "workload_level": 0.3,
+      "traffic_pattern": "burst",
+      "wrk2_rate": 240,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/hotel/burst.lua"
+    },
+    {
+      "slug": "hotel_wl06_uniform",
+      "application": "hotel",
+      "workload_level": 0.6,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 480,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/deathstarbench/hotelReservation/wrk2/scripts/hotel-reservation/mixed-workload_type_1.lua"
+    },
+    {
+      "slug": "hotel_wl06_read-heavy",
+      "application": "hotel",
+      "workload_level": 0.6,
+      "traffic_pattern": "read_heavy",
+      "wrk2_rate": 480,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/hotel/read-heavy.lua"
+    },
+    {
+      "slug": "hotel_wl06_burst",
+      "application": "hotel",
+      "workload_level": 0.6,
+      "traffic_pattern": "burst",
+      "wrk2_rate": 480,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/hotel/burst.lua"
+    },
+    {
+      "slug": "hotel_wl09_uniform",
+      "application": "hotel",
+      "workload_level": 0.9,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 720,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/deathstarbench/hotelReservation/wrk2/scripts/hotel-reservation/mixed-workload_type_1.lua"
+    },
+    {
+      "slug": "hotel_wl09_read-heavy",
+      "application": "hotel",
+      "workload_level": 0.9,
+      "traffic_pattern": "read_heavy",
+      "wrk2_rate": 720,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/hotel/read-heavy.lua"
+    },
+    {
+      "slug": "hotel_wl09_burst",
+      "application": "hotel",
+      "workload_level": 0.9,
+      "traffic_pattern": "burst",
+      "wrk2_rate": 720,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/hotel/burst.lua"
+    }
+  ],
+  "results": [
+    {
+      "slug": "hotel_wl03_uniform",
+      "qps": 240.01,
+      "p99_ms": 7.47,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e1_matrix_hotel/hotel_wl03_uniform"
+    },
+    {
+      "slug": "hotel_wl03_read-heavy",
+      "qps": 240.01,
+      "p99_ms": 7.83,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e1_matrix_hotel/hotel_wl03_read-heavy"
+    },
+    {
+      "slug": "hotel_wl03_burst",
+      "qps": 240.01,
+      "p99_ms": 7.7,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e1_matrix_hotel/hotel_wl03_burst"
+    },
+    {
+      "slug": "hotel_wl06_uniform",
+      "qps": 480.01,
+      "p99_ms": 7.05,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e1_matrix_hotel/hotel_wl06_uniform"
+    },
+    {
+      "slug": "hotel_wl06_read-heavy",
+      "qps": 479.53,
+      "p99_ms": 9.6,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e1_matrix_hotel/hotel_wl06_read-heavy"
+    },
+    {
+      "slug": "hotel_wl06_burst",
+      "qps": 480.01,
+      "p99_ms": 7.88,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e1_matrix_hotel/hotel_wl06_burst"
+    },
+    {
+      "slug": "hotel_wl09_uniform",
+      "qps": 720.01,
+      "p99_ms": 7.61,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e1_matrix_hotel/hotel_wl09_uniform"
+    },
+    {
+      "slug": "hotel_wl09_read-heavy",
+      "qps": 720.0,
+      "p99_ms": 8.2,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e1_matrix_hotel/hotel_wl09_read-heavy"
+    },
+    {
+      "slug": "hotel_wl09_burst",
+      "qps": 719.99,
+      "p99_ms": 7.85,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e1_matrix_hotel/hotel_wl09_burst"
+    }
+  ]
+}

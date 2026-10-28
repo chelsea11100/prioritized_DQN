@@ -1,0 +1,148 @@
+{
+  "Default": [
+    {
+      "qps": 360.0,
+      "latency": 3.98,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 7.6,
+      "memory_usage": 8506.578125,
+      "method": "Default",
+      "seed": 42
+    },
+    {
+      "qps": 360.0,
+      "latency": 4.01,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 8.2,
+      "memory_usage": 8682.68359375,
+      "method": "Default",
+      "seed": 123
+    },
+    {
+      "qps": 360.0,
+      "latency": 3.96,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 8.2,
+      "memory_usage": 8767.76953125,
+      "method": "Default",
+      "seed": 456
+    },
+    {
+      "qps": 360.0,
+      "latency": 3.99,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 8.2,
+      "memory_usage": 8871.8359375,
+      "method": "Default",
+      "seed": 789
+    },
+    {
+      "qps": 360.0,
+      "latency": 3.96,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 5.1,
+      "memory_usage": 8979.64453125,
+      "method": "Default",
+      "seed": 2024
+    }
+  ],
+  "Expert": [
+    {
+      "qps": 360.0,
+      "latency": 4.0,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 8.2,
+      "memory_usage": 9111.2109375,
+      "method": "Expert",
+      "seed": 42
+    },
+    {
+      "qps": 360.0,
+      "latency": 3.97,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 8.2,
+      "memory_usage": 9246.61328125,
+      "method": "Expert",
+      "seed": 123
+    },
+    {
+      "qps": 360.0,
+      "latency": 4.0,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 8.2,
+      "memory_usage": 9372.2734375,
+      "method": "Expert",
+      "seed": 456
+    },
+    {
+      "qps": 359.68,
+      "latency": 4.26,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 7.6,
+      "memory_usage": 9503.7890625,
+      "method": "Expert",
+      "seed": 789
+    },
+    {
+      "qps": 360.0,
+      "latency": 4.0,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 7.6,
+      "memory_usage": 9620.921875,
+      "method": "Expert",
+      "seed": 2024
+    }
+  ],
+  "Bayesian-Opt": [
+    {
+      "qps": 360.0,
+      "latency": 3.98,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 8.7,
+      "memory_usage": 10735.99609375,
+      "method": "Bayesian-Opt",
+      "seed": 42
+    },
+    {
+      "qps": 360.0,
+      "latency": 3.98,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 9.4,
+      "memory_usage": 11615.69921875,
+      "method": "Bayesian-Opt",
+      "seed": 123
+    },
+    {
+      "qps": 360.0,
+      "latency": 3.98,
+      "error_rate": 0.0,
+      "success_rate": 1.0,
+      "cpu_usage": 10.1,
+      "memory_usage": 12223.5625,
+      "method": "Bayesian-Opt",
+      "seed": 456
+    },
+    {
+      "qps": 5.4,
+      "latency": 0.0,
+      "error_rate": 0.3746928746928747,
+      "success_rate": 0.6253071253071253,
+      "cpu_usage": 39.2,
+      "memory_usage": 13693.1640625,
+      "method": "Bayesian-Opt",
+      "seed": 789
+    }
+  ]
+}

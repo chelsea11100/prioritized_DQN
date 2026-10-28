@@ -1,0 +1,182 @@
+{
+  "generated_at": "20260930_104139",
+  "config": "Control experiment/configs/experiment_defaults_paper_e1.json",
+  "traffic_pattern_used_for_probe": "uniform",
+  "applications": {
+    "hotel": {
+      "application": "hotel",
+      "traffic_pattern": "uniform",
+      "target_url": "http://127.0.0.1:5000/",
+      "wrk2_script": null,
+      "slo_p99_ms": 500.0,
+      "max_sustainable_rate_estimate": 800,
+      "rate_30pct": 240,
+      "rate_60pct": 480,
+      "rate_90pct": 720,
+      "curve": [
+        {
+          "rate": 50,
+          "ok": true,
+          "p99_ms": 0.0,
+          "metrics": {
+            "qps": 50.12,
+            "latency": 0.0,
+            "p50_latency": 0.0,
+            "p95_latency": 0.0,
+            "p99_latency": 0.0,
+            "error_rate": 0.0,
+            "success_rate": 1.0,
+            "latency_distribution": [
+              0.0
+            ],
+            "raw_wrk2": "Running 5m test @ http://127.0.0.1:5000/\n  4 threads and 64 connections\n  Thread calibration: mean lat.: 0.844ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.824ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.869ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.855ms, rate sampling interval: 10ms\n  Thread Stats   Avg      Stdev     Max   +/- Stdev\n    Latency     0.88ms  380.06us   2.39ms   67.02%\n    Req/Sec    13.23     51.06   333.00     93.33%\n  15040 requests in 5.00m, 23.62MB read\nRequests/sec:     50.12\nTransfer/sec:     80.61KB\n\n"
+          }
+        },
+        {
+          "rate": 100,
+          "ok": true,
+          "p99_ms": 0.0,
+          "metrics": {
+            "qps": 100.02,
+            "latency": 0.0,
+            "p50_latency": 0.0,
+            "p95_latency": 0.0,
+            "p99_latency": 0.0,
+            "error_rate": 0.0,
+            "success_rate": 1.0,
+            "latency_distribution": [
+              0.0
+            ],
+            "raw_wrk2": "Running 5m test @ http://127.0.0.1:5000/\n  4 threads and 64 connections\n  Thread calibration: mean lat.: 0.885ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.906ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.906ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.801ms, rate sampling interval: 10ms\n  Thread Stats   Avg      Stdev     Max   +/- Stdev\n    Latency     0.89ms  387.98us   2.28ms   65.99%\n    Req/Sec    26.36     69.61   333.00     86.73%\n  30016 requests in 5.00m, 47.15MB read\nRequests/sec:    100.02\nTransfer/sec:    160.88KB\n\n"
+          }
+        },
+        {
+          "rate": 150,
+          "ok": true,
+          "p99_ms": 0.0,
+          "metrics": {
+            "qps": 150.13,
+            "latency": 0.0,
+            "p50_latency": 0.0,
+            "p95_latency": 0.0,
+            "p99_latency": 0.0,
+            "error_rate": 0.0,
+            "success_rate": 1.0,
+            "latency_distribution": [
+              0.0
+            ],
+            "raw_wrk2": "Running 5m test @ http://127.0.0.1:5000/\n  4 threads and 64 connections\n  Thread calibration: mean lat.: 0.868ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.870ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.886ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.850ms, rate sampling interval: 10ms\n  Thread Stats   Avg      Stdev     Max   +/- Stdev\n    Latency     0.87ms  377.39us   3.23ms   67.43%\n    Req/Sec    39.55     82.18   333.00     83.36%\n  45040 requests in 5.00m, 70.74MB read\nRequests/sec:    150.13\nTransfer/sec:    241.47KB\n\n"
+          }
+        },
+        {
+          "rate": 200,
+          "ok": true,
+          "p99_ms": 0.0,
+          "metrics": {
+            "qps": 200.05,
+            "latency": 0.0,
+            "p50_latency": 0.0,
+            "p95_latency": 0.0,
+            "p99_latency": 0.0,
+            "error_rate": 0.0,
+            "success_rate": 1.0,
+            "latency_distribution": [
+              0.0
+            ],
+            "raw_wrk2": "Running 5m test @ http://127.0.0.1:5000/\n  4 threads and 64 connections\n  Thread calibration: mean lat.: 0.852ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.840ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.837ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.860ms, rate sampling interval: 10ms\n  Thread Stats   Avg      Stdev     Max   +/- Stdev\n    Latency     0.92ms  399.90us   2.45ms   65.76%\n    Req/Sec    52.79     91.12   333.00     77.52%\n  60032 requests in 5.00m, 94.29MB read\nRequests/sec:    200.05\nTransfer/sec:    321.76KB\n\n"
+          }
+        },
+        {
+          "rate": 300,
+          "ok": true,
+          "p99_ms": 0.0,
+          "metrics": {
+            "qps": 300.1,
+            "latency": 0.0,
+            "p50_latency": 0.0,
+            "p95_latency": 0.0,
+            "p99_latency": 0.0,
+            "error_rate": 0.0,
+            "success_rate": 1.0,
+            "latency_distribution": [
+              0.0
+            ],
+            "raw_wrk2": "Running 5m test @ http://127.0.0.1:5000/\n  4 threads and 64 connections\n  Thread calibration: mean lat.: 0.865ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.861ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.872ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.855ms, rate sampling interval: 10ms\n  Thread Stats   Avg      Stdev     Max   +/- Stdev\n    Latency     0.88ms  392.90us   2.98ms   67.47%\n    Req/Sec    79.19    101.90   333.00     66.88%\n  90032 requests in 5.00m, 141.41MB read\nRequests/sec:    300.10\nTransfer/sec:    482.69KB\n\n"
+          }
+        },
+        {
+          "rate": 400,
+          "ok": true,
+          "p99_ms": 0.0,
+          "metrics": {
+            "qps": 400.01,
+            "latency": 0.0,
+            "p50_latency": 0.0,
+            "p95_latency": 0.0,
+            "p99_latency": 0.0,
+            "error_rate": 0.0,
+            "success_rate": 1.0,
+            "latency_distribution": [
+              0.0
+            ],
+            "raw_wrk2": "Running 5m test @ http://127.0.0.1:5000/\n  4 threads and 64 connections\n  Thread calibration: mean lat.: 0.858ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.864ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.858ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.885ms, rate sampling interval: 10ms\n  Thread Stats   Avg      Stdev     Max   +/- Stdev\n    Latency     0.90ms  399.65us   5.75ms   66.76%\n    Req/Sec   105.70    105.00   333.00     76.33%\n  120004 requests in 5.00m, 188.49MB read\nRequests/sec:    400.01\nTransfer/sec:    643.38KB\n\n"
+          }
+        },
+        {
+          "rate": 500,
+          "ok": true,
+          "p99_ms": 0.0,
+          "metrics": {
+            "qps": 500.01,
+            "latency": 0.0,
+            "p50_latency": 0.0,
+            "p95_latency": 0.0,
+            "p99_latency": 0.0,
+            "error_rate": 0.0,
+            "success_rate": 1.0,
+            "latency_distribution": [
+              0.0
+            ],
+            "raw_wrk2": "Running 5m test @ http://127.0.0.1:5000/\n  4 threads and 64 connections\n  Thread calibration: mean lat.: 0.885ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.886ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.875ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.876ms, rate sampling interval: 10ms\n  Thread Stats   Avg      Stdev     Max   +/- Stdev\n    Latency     0.93ms  406.59us   5.12ms   66.63%\n    Req/Sec   132.41    101.98   333.00     62.76%\n  150020 requests in 5.00m, 235.64MB read\nRequests/sec:    500.01\nTransfer/sec:    804.22KB\n\n"
+          }
+        },
+        {
+          "rate": 600,
+          "ok": true,
+          "p99_ms": 0.0,
+          "metrics": {
+            "qps": 599.41,
+            "latency": 0.0,
+            "p50_latency": 0.0,
+            "p95_latency": 0.0,
+            "p99_latency": 0.0,
+            "error_rate": 0.0,
+            "success_rate": 1.0,
+            "latency_distribution": [
+              0.0
+            ],
+            "raw_wrk2": "Running 5m test @ http://127.0.0.1:5000/\n  4 threads and 64 connections\n  Thread calibration: mean lat.: 0.881ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.860ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 1.050ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.884ms, rate sampling interval: 10ms\n  Thread Stats   Avg      Stdev     Max   +/- Stdev\n    Latency     0.95ms  407.33us   6.59ms   64.58%\n    Req/Sec   159.44    257.23     1.78k    97.50%\n  179876 requests in 5.00m, 282.53MB read\nRequests/sec:    599.41\nTransfer/sec:      0.94MB\n\n"
+          }
+        },
+        {
+          "rate": 800,
+          "ok": true,
+          "p99_ms": 0.0,
+          "metrics": {
+            "qps": 800.01,
+            "latency": 0.0,
+            "p50_latency": 0.0,
+            "p95_latency": 0.0,
+            "p99_latency": 0.0,
+            "error_rate": 0.0,
+            "success_rate": 1.0,
+            "latency_distribution": [
+              0.0
+            ],
+            "raw_wrk2": "Running 5m test @ http://127.0.0.1:5000/\n  4 threads and 64 connections\n  Thread calibration: mean lat.: 0.884ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.868ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.869ms, rate sampling interval: 10ms\n  Thread calibration: mean lat.: 0.879ms, rate sampling interval: 10ms\n  Thread Stats   Avg      Stdev     Max   +/- Stdev\n    Latency     0.90ms  381.25us   6.17ms   66.92%\n    Req/Sec   211.92     36.47   333.00     87.54%\n  240004 requests in 5.00m, 376.97MB read\nRequests/sec:    800.01\nTransfer/sec:      1.26MB\n\n"
+          }
+        }
+      ]
+    }
+  }
+}

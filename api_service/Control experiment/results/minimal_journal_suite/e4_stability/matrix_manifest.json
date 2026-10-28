@@ -1,0 +1,21 @@
+{
+  "phase": "e2",
+  "cells": [
+    {
+      "slug": "hotel_wl06_uniform",
+      "application": "hotel",
+      "workload_level": 0.6,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 480,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/stabtune/deathstarbench/hotelReservation/wrk2/scripts/hotel-reservation/mixed-workload_type_1.lua"
+    }
+  ],
+  "results": [
+    {
+      "slug": "hotel_wl06_uniform",
+      "exit_code": 0,
+      "dir": "/home/stabtune/api_service/Control experiment/results/minimal_journal_suite/e4_stability/hotel_wl06_uniform"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+E1 DeathStarBench + wrk2（期刊对齐）
+=====================================
+
+一、环境
+  1. 克隆 DeathStarBench，按官方文档分别启动 HotelReservation / SocialNetwork（Docker Compose）。
+  2. 安装 wrk2 并加入 PATH（需支持 -R 开环速率）。
+  3. export DSB_ROOT=/你的路径/deathstarbench
+  4. 编辑 configs/dsb_applications.json 中的 target_url（若端口不是 8080）。
+
+二、论文测量参数（已写入 configs/experiment_defaults_paper_e1.json）
+  - warmup 30s + measure 300s
+  - backend=wrk2
+  - 容量 30% / 60% / 90% 开环速率
+
+三、推荐命令（在 api_service/ 下，已激活 .venv）
+
+  # 1) 全应用容量标定 → capacity_by_app.json
+  export DSB_ROOT=$HOME/deathstarbench
+  python "Control experiment/run_e1_capacity_all.py" \\
+    --config "Control experiment/configs/experiment_defaults_paper_e1.json" \\
+    --out "Control experiment/results/e1_capacity"
+
+  # 2) 矩阵冒烟：单格 30+300 测量
+  python "Control experiment/run_journal_matrix.py" --smoke --phase measure \\
+    --capacity-json "Control experiment/results/e1_capacity/capacity_by_app.json"
+
+  # 3) 全矩阵 E1 测量（18 格 = 2 应用 × 3 负载 × 3 流量，每格约 5.5 分钟）
+  python "Control experiment/run_journal_matrix.py" --phase measure \\
+    --capacity-json "Control experiment/results/e1_capacity/capacity_by_app.json" \\
+    --out "Control experiment/results/e1_matrix_measure"
+
+  # 4) 全矩阵 E2 主实验（每格独立 raw_results，需 sysctl 时用 sudo -E）
+  sudo -E env DSB_ROOT=$DSB_ROOT PATH=$PATH python "Control experiment/run_journal_matrix.py" \\
+    --phase e2 \\
+    --capacity-json "Control experiment/results/e1_capacity/capacity_by_app.json" \\
+    --methods default,expert,bayesian-opt,prioritized-dqn,v9-full \\
+    --out "Control experiment/results/e2_matrix"
+
+  # 单应用容量（旧入口，仍可用）
+  python scripts/capacity_probe.py \\
+    --config "Control experiment/configs/experiment_defaults_paper_e1.json" \\
+    --application hotel --out /tmp/hotel_capacity.json
+
+四、流量脚本
+  - uniform / read_heavy / burst 在 dsb_applications.json 中映射到 DSB 自带 wrk2 lua。
+  - 若 lua 路径不存在，wrk2 仍会对 target_url 压测（不加 -s）；严格模式：
+    export STABTUNE_STRICT_WRK2_SCRIPT=1
+
+五、与 PDF 的对应关系
+  - SocialNetwork + HotelReservation：dsb_applications.json 两应用
+  - 30/60/90% 容量负载：capacity_by_app.json + matrix workload_level
+  - 三种请求分布：traffic_pattern + wrk2 lua（SocialNetwork 可读 read-heavy 脚本）
+  - 30s+300s：experiment_defaults_paper_e1.json

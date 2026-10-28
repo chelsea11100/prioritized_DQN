@@ -1,0 +1,21 @@
+{
+  "phase": "e2",
+  "cells": [
+    {
+      "slug": "hotel_wl06_burst",
+      "application": "hotel",
+      "workload_level": 0.6,
+      "traffic_pattern": "burst",
+      "wrk2_rate": 480,
+      "url": "http://127.0.0.1:5000/",
+      "script": null
+    }
+  ],
+  "results": [
+    {
+      "slug": "hotel_wl06_burst",
+      "exit_code": 0,
+      "dir": "/home/stabtune/api_service/Control experiment/results/minimal_journal_suite/e8_burst/hotel_wl06_burst"
+    }
+  ]
+}

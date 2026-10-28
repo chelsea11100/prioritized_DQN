@@ -1,0 +1,21 @@
+{
+  "phase": "e2",
+  "cells": [
+    {
+      "slug": "socialnetwork_wl06_uniform",
+      "application": "socialnetwork",
+      "workload_level": 0.6,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 360,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/stabtune/deathstarbench/socialNetwork/wrk2/scripts/social-network/mixed-workload.lua"
+    }
+  ],
+  "results": [
+    {
+      "slug": "socialnetwork_wl06_uniform",
+      "exit_code": 0,
+      "dir": "/home/stabtune/api_service/Control experiment/results/e2_reduced_v2/socialnetwork_wl06_uniform"
+    }
+  ]
+}

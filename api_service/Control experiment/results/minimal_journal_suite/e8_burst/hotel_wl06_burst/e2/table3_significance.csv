@@ -1,0 +1,3 @@
+Method,welch_t,p_raw,p_holm,cohens_d,levene_p,brown_forsythe_p
+Default,-1.0,0.49999999999999956,0.9999999999999991,-1.0,0.0,0.0
+Bayesian-Opt,-1.0,0.49999999999999956,0.9999999999999991,-1.0,0.0,0.0

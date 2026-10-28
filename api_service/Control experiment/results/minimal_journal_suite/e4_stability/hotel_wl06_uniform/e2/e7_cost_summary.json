@@ -1,0 +1,17 @@
+{
+  "PER-DQN-CV": {
+    "wall_clock_mean": 13808.158038496971,
+    "wall_clock_total": 27616.316076993942,
+    "n_trials": 2
+  },
+  "PPO-MeanVariance": {
+    "wall_clock_mean": 43949.05049157143,
+    "wall_clock_total": 87898.10098314285,
+    "n_trials": 2
+  },
+  "V9-Full": {
+    "wall_clock_mean": 11976.488302588463,
+    "wall_clock_total": 23952.976605176926,
+    "n_trials": 2
+  }
+}

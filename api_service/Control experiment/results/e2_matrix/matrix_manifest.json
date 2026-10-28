@@ -1,0 +1,259 @@
+{
+  "phase": "e2",
+  "cells": [
+    {
+      "slug": "hotel_wl03_uniform",
+      "application": "hotel",
+      "workload_level": 0.3,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 240,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/deathstarbench/hotelReservation/wrk2/scripts/hotel-reservation/mixed-workload_type_1.lua"
+    },
+    {
+      "slug": "hotel_wl03_read-heavy",
+      "application": "hotel",
+      "workload_level": 0.3,
+      "traffic_pattern": "read_heavy",
+      "wrk2_rate": 240,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/hotel/read-heavy.lua"
+    },
+    {
+      "slug": "hotel_wl03_burst",
+      "application": "hotel",
+      "workload_level": 0.3,
+      "traffic_pattern": "burst",
+      "wrk2_rate": 240,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/hotel/burst.lua"
+    },
+    {
+      "slug": "hotel_wl06_uniform",
+      "application": "hotel",
+      "workload_level": 0.6,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 480,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/deathstarbench/hotelReservation/wrk2/scripts/hotel-reservation/mixed-workload_type_1.lua"
+    },
+    {
+      "slug": "hotel_wl06_read-heavy",
+      "application": "hotel",
+      "workload_level": 0.6,
+      "traffic_pattern": "read_heavy",
+      "wrk2_rate": 480,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/hotel/read-heavy.lua"
+    },
+    {
+      "slug": "hotel_wl06_burst",
+      "application": "hotel",
+      "workload_level": 0.6,
+      "traffic_pattern": "burst",
+      "wrk2_rate": 480,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/hotel/burst.lua"
+    },
+    {
+      "slug": "hotel_wl09_uniform",
+      "application": "hotel",
+      "workload_level": 0.9,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 720,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/deathstarbench/hotelReservation/wrk2/scripts/hotel-reservation/mixed-workload_type_1.lua"
+    },
+    {
+      "slug": "hotel_wl09_read-heavy",
+      "application": "hotel",
+      "workload_level": 0.9,
+      "traffic_pattern": "read_heavy",
+      "wrk2_rate": 720,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/hotel/read-heavy.lua"
+    },
+    {
+      "slug": "hotel_wl09_burst",
+      "application": "hotel",
+      "workload_level": 0.9,
+      "traffic_pattern": "burst",
+      "wrk2_rate": 720,
+      "url": "http://127.0.0.1:5000/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/hotel/burst.lua"
+    },
+    {
+      "slug": "socialnetwork_wl03_uniform",
+      "application": "socialnetwork",
+      "workload_level": 0.3,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 180,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/deathstarbench/socialNetwork/wrk2/scripts/social-network/mixed-workload.lua"
+    },
+    {
+      "slug": "socialnetwork_wl03_read-heavy",
+      "application": "socialnetwork",
+      "workload_level": 0.3,
+      "traffic_pattern": "read_heavy",
+      "wrk2_rate": 180,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/socialnetwork/read-heavy.lua"
+    },
+    {
+      "slug": "socialnetwork_wl03_burst",
+      "application": "socialnetwork",
+      "workload_level": 0.3,
+      "traffic_pattern": "burst",
+      "wrk2_rate": 180,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/deathstarbench/socialNetwork/wrk2/scripts/social-network/compose-post.lua"
+    },
+    {
+      "slug": "socialnetwork_wl06_uniform",
+      "application": "socialnetwork",
+      "workload_level": 0.6,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 360,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/deathstarbench/socialNetwork/wrk2/scripts/social-network/mixed-workload.lua"
+    },
+    {
+      "slug": "socialnetwork_wl06_read-heavy",
+      "application": "socialnetwork",
+      "workload_level": 0.6,
+      "traffic_pattern": "read_heavy",
+      "wrk2_rate": 360,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/socialnetwork/read-heavy.lua"
+    },
+    {
+      "slug": "socialnetwork_wl06_burst",
+      "application": "socialnetwork",
+      "workload_level": 0.6,
+      "traffic_pattern": "burst",
+      "wrk2_rate": 360,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/deathstarbench/socialNetwork/wrk2/scripts/social-network/compose-post.lua"
+    },
+    {
+      "slug": "socialnetwork_wl09_uniform",
+      "application": "socialnetwork",
+      "workload_level": 0.9,
+      "traffic_pattern": "uniform",
+      "wrk2_rate": 540,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/deathstarbench/socialNetwork/wrk2/scripts/social-network/mixed-workload.lua"
+    },
+    {
+      "slug": "socialnetwork_wl09_read-heavy",
+      "application": "socialnetwork",
+      "workload_level": 0.9,
+      "traffic_pattern": "read_heavy",
+      "wrk2_rate": 540,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/configs/wrk2_lua/socialnetwork/read-heavy.lua"
+    },
+    {
+      "slug": "socialnetwork_wl09_burst",
+      "application": "socialnetwork",
+      "workload_level": 0.9,
+      "traffic_pattern": "burst",
+      "wrk2_rate": 540,
+      "url": "http://127.0.0.1:8080/",
+      "script": "/home/tangger/deathstarbench/socialNetwork/wrk2/scripts/social-network/compose-post.lua"
+    }
+  ],
+  "results": [
+    {
+      "slug": "hotel_wl03_uniform",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/hotel_wl03_uniform"
+    },
+    {
+      "slug": "hotel_wl03_read-heavy",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/hotel_wl03_read-heavy"
+    },
+    {
+      "slug": "hotel_wl03_burst",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/hotel_wl03_burst"
+    },
+    {
+      "slug": "hotel_wl06_uniform",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/hotel_wl06_uniform"
+    },
+    {
+      "slug": "hotel_wl06_read-heavy",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/hotel_wl06_read-heavy"
+    },
+    {
+      "slug": "hotel_wl06_burst",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/hotel_wl06_burst"
+    },
+    {
+      "slug": "hotel_wl09_uniform",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/hotel_wl09_uniform"
+    },
+    {
+      "slug": "hotel_wl09_read-heavy",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/hotel_wl09_read-heavy"
+    },
+    {
+      "slug": "hotel_wl09_burst",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/hotel_wl09_burst"
+    },
+    {
+      "slug": "socialnetwork_wl03_uniform",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/socialnetwork_wl03_uniform"
+    },
+    {
+      "slug": "socialnetwork_wl03_read-heavy",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/socialnetwork_wl03_read-heavy"
+    },
+    {
+      "slug": "socialnetwork_wl03_burst",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/socialnetwork_wl03_burst"
+    },
+    {
+      "slug": "socialnetwork_wl06_uniform",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/socialnetwork_wl06_uniform"
+    },
+    {
+      "slug": "socialnetwork_wl06_read-heavy",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/socialnetwork_wl06_read-heavy"
+    },
+    {
+      "slug": "socialnetwork_wl06_burst",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/socialnetwork_wl06_burst"
+    },
+    {
+      "slug": "socialnetwork_wl09_uniform",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/socialnetwork_wl09_uniform"
+    },
+    {
+      "slug": "socialnetwork_wl09_read-heavy",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/socialnetwork_wl09_read-heavy"
+    },
+    {
+      "slug": "socialnetwork_wl09_burst",
+      "exit_code": 1,
+      "dir": "/home/tangger/桌面/prioritized_DQN/api_service/Control experiment/results/e2_matrix/socialnetwork_wl09_burst"
+    }
+  ]
+}
